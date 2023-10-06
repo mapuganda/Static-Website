@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>MapUganda</title>
+		<!-- Load Roboto font -->
+		<link
+			href="http://fonts.googleapis.com/css?family=Roboto:400,300,700&amp;subset=latin,latin-ext"
+			rel="stylesheet"
+			type="text/css" />
+		<!-- Load css styles -->
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="css/bootstrap-responsive.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/pluton.css" />
+		<!--[if IE 7]>
+            <link rel="stylesheet" type="text/css" href="css/pluton-ie7.css" /><meta charset=utf-8>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MapUganda</title>
+        <!-- Load Roboto font -->
+		<link
+			href="http://fonts.googleapis.com/css?family=Roboto:400,300,700&amp;subset=latin,latin-ext"
+			rel="stylesheet"
+			type="text/css" />
+		<!-- Load css styles -->
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="css/bootstrap-responsive.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/pluton.css" />
+		<!--[if IE 7]>
+			<link rel="stylesheet" type="text/css" href="css/pluton-ie7.css" />
+		<![endif]-->
+		<link rel="stylesheet" type="text/css" href="css/jquery.cslider.css" />
+		<link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css" />
+		<link rel="stylesheet" type="text/css" href="css/animate.css" />
+		<!-- Fav and touch icons -->
+		<link
+			rel="apple-touch-icon-precomposed"
+			sizes="144x144"
+			href="images/ico/OSM-Uganda-touch-icon-144.png" />
+		<link
+			rel="apple-touch-icon-precomposed"
+			sizes="114x114"
+			href="images/ico/OSM-Uganda-touch-icon-114.png" />
+		<link
+			rel="apple-touch-icon-precomposed"
+			sizes="72x72"
+			href="images/OSM-Uganda-touch-icon-72.png" />
+		<link
+			rel="apple-touch-icon-precomposed"
+			href="images/ico/OSM-Uganda-touch-icon-57.png" />
+		<link rel="shortcut icon" href="images/ico/OSM-Uganda-touch-favicon.png" />
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>MapUganda</title>
+		<!-- Load Roboto font -->
+		<link
+			href="http://fonts.googleapis.com/css?family=Roboto:400,300,700&amp;subset=latin,latin-ext"
+			rel="stylesheet"
+			type="text/css" />
+		<!-- Load css styles -->
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="css/bootstrap-responsive.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/pluton.css" />
+		<!--[if IE 7]>
+			<link rel="stylesheet" type="text/css" href="css/pluton-ie7.css" />
+		<![endif]-->
+		<link rel="stylesheet" type="text/css" href="css/jquery.cslider.css" />
+		<link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css" />
+		<link rel="stylesheet" type="text/css" href="css/animate.css" />
+		<!-- Fav and touch icons -->
+		<link
+			rel="apple-touch-icon-precomposed"
+			sizes="144x144"
+			href="images/ico/OSM-Uganda-touch-icon-144.png" />
+		<link
+			rel="apple-touch-icon-precomposed"
+			sizes="114x114"
+			href="images/ico/OSM-Uganda-touch-icon-114.png" />
+		<link
+			rel="apple-touch-icon-precomposed"
+			sizes="72x72"
+			href="images/OSM-Uganda-touch-icon-72.png" />
+		<link
+			rel="apple-touch-icon-precomposed"
+			href="images/ico/OSM-Uganda-touch-icon-57.png" />
+		<link rel="shortcut icon" href="images/ico/OSM-Uganda-touch-favicon.png" />
+
+		<link rel="stylesheet" type="text/css" href="css/jquery.cslider.css" />
+		<link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css" />
+		<link rel="stylesheet" type="text/css" href="css/animate.css" />
+		<!-- Fav and touch icons -->
+		<link
+			rel="apple-touch-icon-precomposed"
+			sizes="144x144"
+			href="images/ico/OSM-Uganda-touch-icon-144.png" />
+		<link
+			rel="apple-touch-icon-precomposed"
+			sizes="114x114"
+			href="images/ico/OSM-Uganda-touch-icon-114.png" />
+		<link
+			rel="apple-touch-icon-precomposed"
+			sizes="72x72"
+			href="images/OSM-Uganda-touch-icon-72.png" />
+		<link
+			rel="apple-touch-icon-precomposed"
+			href="images/ico/OSM-Uganda-touch-icon-57.png" />
+		<link rel="shortcut icon" href="images/ico/OSM-Uganda-touch-favicon.png" />
+		<title>GIS Academy</title>
+
+		<style>
+			/* Custom Styles */
+			body {
+				background-color: #f8f9fa;
+				font-family: Arial, sans-serif;
+			}
+
+			.navbar {
+				background-color: #007bff;
+			}
+
+			.navbar-dark .navbar-nav .nav-link {
+				color: #fff;
+			}
+
+			.navbar-dark .navbar-toggler-icon {
+				background-color: #fff;
+			}
+
+			header {
+				text-align: center;
+				padding: 100px 0;
+			}
+
+			header h1 {
+				font-size: 3rem;
+				color: #333;
+			}
+
+			.lead {
+				font-size: 1.5rem;
+				color: #666;
+			}
+
+			section {
+				padding: 60px 0;
+			}
+
+			h2 {
+				font-size: 2rem;
+				color: #333;
+				margin-bottom: 20px;
+			}
+
+			ul {
+				list-style-type: none;
+			}
+
+			ul li {
+				margin-bottom: 10px;
+			}
+
+			li {
+				color: black !important;
+			}
+			.signup-button {
+				text-align: center;
+				margin-top: 30px;
+			}
+
+			.btn-primary {
+				background-color: #007bff;
+				color: #fff;
+				font-weight: bold;
+			}
+			
+		</style>
+
+		<!-- Bootstrap CSS -->
+		<!-- <link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" /> -->
+	</head>
+	<body>
+		<!-- Navbar -->
+		<nav>
+			<div class="navbar">
+				<div class="navbar-inner">
+					<div class="container">
+						<a href="#" class="brand">
+							<img
+								src="images/OSM_Uganda-Logo.png"
+								width="120"
+								height="60"
+								alt="Logo" />
+							<img
+								src="images/Banner Website.png"
+								width="120"
+								height="60"
+								alt="Logo" />
+							<!-- This is website logo -->
+						</a>
+						<!-- Navigation button, visible on small resolution -->
+						<button
+							type="button"
+							class="btn btn-navbar"
+							data-toggle="collapse"
+							data-target=".nav-collapse">
+							<i class="icon-menu"></i>
+						</button>
+						<!-- Main navigation -->
+						<div class="nav-collapse collapse pull-right">
+							<ul class="nav" id="top-navigation">
+								<li class="active"><a href="/index.html#home">Home</a></li>
+								<li><a href="/index.html#service">Services</a></li>
+								<li><a href="/index.html#portfolio">Portfolio</a></li>
+								<li><a href="/index.html#about">About</a></li>
+								<li><a href="/index.html#clients">Partners</a></li>
+								<li>
+									<a href="https://osmuganda.medium.com/" target="_blank"
+										>Blogs</a
+									>
+								</li>
+								<li><a href="/index.html#contact">Contact</a></li>
+								<li>
+									<a
+										href="https://mapuganda.creator-spring.com/"
+										target="_blank"
+										>Shop</a
+									>
+								</li>
+							</ul>
+						</div>
+						<!-- End main navigation -->
+					</div>
+				</div>
+			</div>
+		</nav>
+
+		<!-- Hero Section -->
+		<header class="bg-light py-5">
+			<div class="container text-center">
+				<h1 class="display-4">GIS Academy</h1>
+				<p class="lead">
+					Unlock the Power of Geographic Information Systems (GIS)
+				</p>
+			</div>
+		</header>
+
+		<!-- Course Outline -->
+		<section id="course-outline" class="py-5">
+			<div class="container">
+				<h2>Course Outline</h2>
+				<!-- Include your course outline here -->
+				<p>Month One:</p>
+				<ul>
+					<li>Week 1: Introduction to OpenStreetMap</li>
+					<li>Week 2: Introduction to QGIS</li>
+					<li>Week 3: Understanding GIS and its application</li>
+					<li>Week 4: ArcGIS Desktop (Essential Workflows)</li>
+					<!-- Add more weeks and topics as needed -->
+				</ul>
+				<p>Month Two:</p>
+				<ul>
+					<li>Personal Project (Design a project using GIS)</li>
+					<!-- Add more details about the second month here -->
+				</ul>
+			</div>
+		</section>
+
+		<!-- Benefits -->
+		<section id="benefits" class="bg-light py-5">
+			<div class="container">
+				<h2>Benefits of GIS</h2>
+				<!-- Add information about the benefits here -->
+				<ul>
+					➢
+					<li>Understanding and Visualization of geospatial data.</li>
+
+					<li>Improved Planning and Decision making.</li>
+					➢
+					<li>Enhanced Environmental management.</li>
+					➢
+					<li>Improved Disaster management and emergency response.</li>
+					➢
+					<li>Enhanced Business operations and Marketing.</li>
+				</ul>
+			</div>
+		</section>
+
+		<!-- Tools -->
+		<section id="tools" class="py-5">
+			<div class="container">
+				<h2>Tools</h2>
+				<!-- Add information about the tools used in the course here -->
+				<ul>
+					<li>Data Collection tools</li>
+					➢
+					<li>ArcGIS Desktop & ArcGIS online</li>
+					➢
+					<li>QGIS</li>
+				</ul>
+			</div>
+		</section>
+
+		<!-- Achievements -->
+		<section id="achievements" class="bg-light py-5">
+			<div class="container">
+				<h2>Achievements after studying GIS course</h2>
+				<!-- Add information about the achievements here -->
+				<ul>
+					<li>
+						Someone will be able to apply the skills attained in different
+						industries e.g business, transportation, human resources, utilities.
+					</li>
+					➢
+					<li>Someone will be able to understand and visualize geospatial.</li>
+					➢
+					<li>
+						Completing a GIS (Geographic Information Systems) course can open up
+						various opportunities and lead to numerous achievements, depending
+						on your goals.
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<div class="signup-button">
+			<a
+				href="https://forms.gle/KojBicvEQSAHw1kh6"
+				target="_blank"
+				class="btn btn-primary btn-lg"
+				>Sign Up Now</a
+			>
+		</div>
+
+		<!-- Bootstrap JS -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+	</body>
+</html>
