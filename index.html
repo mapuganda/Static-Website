@@ -1,1 +1,2111 @@
-<html></html>
+<!DOCTYPE html>
+
+<html lang="en">
+    
+    <head>
+        <meta charset=utf-8>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MapUganda</title>
+        <!-- Load Roboto font -->
+        <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        <!-- Load css styles -->
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" href="css/pluton.css" />
+        <!--[if IE 7]>
+            <link rel="stylesheet" type="text/css" href="css/pluton-ie7.css" /><meta charset=utf-8>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MapUganda</title>
+        <!-- Load Roboto font -->
+        <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        <!-- Load css styles -->
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" href="css/pluton.css" />
+        <!--[if IE 7]>
+            <link rel="stylesheet" type="text/css" href="css/pluton-ie7.css" />
+        <![endif]-->
+        <link rel="stylesheet" type="text/css" href="css/jquery.cslider.css" />
+        <link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css" />
+        <link rel="stylesheet" type="text/css" href="css/animate.css" />
+        <!-- Fav and touch icons -->
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/OSM-Uganda-touch-icon-144.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/OSM-Uganda-touch-icon-114.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/OSM-Uganda-touch-icon-72.png">
+        <link rel="apple-touch-icon-precomposed" href="images/ico/OSM-Uganda-touch-icon-57.png">
+        <link rel="shortcut icon" href="images/ico/OSM-Uganda-touch-favicon.png"><meta charset=utf-8>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MapUganda</title>
+        <!-- Load Roboto font -->
+        <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        <!-- Load css styles -->
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" href="css/pluton.css" />
+        <!--[if IE 7]>
+            <link rel="stylesheet" type="text/css" href="css/pluton-ie7.css" />
+        <![endif]-->
+        <link rel="stylesheet" type="text/css" href="css/jquery.cslider.css" />
+        <link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css" />
+        <link rel="stylesheet" type="text/css" href="css/animate.css" />
+        <!-- Fav and touch icons -->
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/OSM-Uganda-touch-icon-144.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/OSM-Uganda-touch-icon-114.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/OSM-Uganda-touch-icon-72.png">
+        <link rel="apple-touch-icon-precomposed" href="images/ico/OSM-Uganda-touch-icon-57.png">
+        <link rel="shortcut icon" href="images/ico/OSM-Uganda-touch-favicon.png">
+        <![endif]-->
+        <link rel="stylesheet" type="text/css" href="css/jquery.cslider.css" />
+        <link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css" />
+        <link rel="stylesheet" type="text/css" href="css/animate.css" />
+        <!-- Fav and touch icons -->
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/OSM-Uganda-touch-icon-144.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/OSM-Uganda-touch-icon-114.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/OSM-Uganda-touch-icon-72.png">
+        <link rel="apple-touch-icon-precomposed" href="images/ico/OSM-Uganda-touch-icon-57.png">
+        <link rel="shortcut icon" href="images/ico/OSM-Uganda-touch-favicon.png">
+    </head>
+    
+    <body>
+        <div class="navbar">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a href="#" class="brand">
+                        <img src="images/OSM_Uganda-Logo.png" width="120" height="60" alt="Logo"/>
+                        <img src="images/Banner Website.png" width="120" height="60" alt="Logo"/>
+                        <!-- This is website logo -->
+                    </a>
+                    <!-- Navigation button, visible on small resolution -->
+                    <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <i class="icon-menu"></i>
+                    </button>
+                    <!-- Main navigation -->
+                    <div class="nav-collapse collapse pull-right">
+                        <ul class="nav" id="top-navigation">
+                            <li class="active"><a href="#home">Home</a></li>
+                            <li><a href="#service">Services</a></li>
+                            <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#clients">Partners</a></li>
+                            <li><a href="https://osmuganda.medium.com/" target="_blank">Blogs</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                            <li><a href="https://mapuganda.creator-spring.com/" target="_blank">Shop</a></li>
+                        </ul>
+                    </div>
+                    <!-- End main navigation -->
+                </div>
+            </div>
+        </div>
+        <!-- Start home section -->
+        <div id="home">
+            <!-- Start cSlider -->
+            <div id="da-slider" class="da-slider">
+                <div class="triangle"></div>
+                <!-- mask elemet use for masking background image -->
+                <div class="mask"></div>
+                <!-- All slides centred in container element -->
+                <div class="container">
+                    <!-- Start first slide -->
+                    <div class="da-slide">
+                        <h2 class="fittext2">Open GIS Academy</h2>
+                        <h4> Get GIS Certification Today</h4>
+                        <p>2 months instructor led course curated with real world practical applications of GIS to solve community challenges and accredited to the world recognised level.</p>
+                        <a href="/academy.html" class="da-link button">Read more</a>
+                        <div class="da-img">
+                            <img src="images/kyambogo_university_training.jpg" width="320" alt="kyambogo_university_training">
+                        </div>
+                    </div>
+                    <!-- End first slide -->
+                    <!-- Start second slide -->
+                    <div class="da-slide">
+                        <h2>Youth Mappers </h2>
+                        <h4>Uganda Chapters</h4>
+                        <p>Exposure and skills development as we support our communities to solve challanges is attained by support of University students who volunteer to map their communities.</p>
+                        <a href="#" class="da-link button">Read more</a>
+                        <div class="da-img">
+                            <img src="images/kyambogo_university_training.jpg" width="320" alt="kyambogo_university_training">
+                        </div>
+                    </div>
+                    <!-- End second slide -->
+                    <!-- Start third slide -->
+                    <div class="da-slide">
+                        <h2>Disaster Response </h2>
+                        <h4>Local Disasters</h4>
+                        <p>OpenStreetMap Uganda works together with district disaster management committees, Office of the Prime Minister among others to support on geospatial assessment for risk accessment.</p>
+                        <a href="#" class="da-link button">Read more</a>
+                        <div class="da-img">
+                            <img src="images/kisoro_disaster_response.jpg" width="320" alt="kisoro_disaster_response">
+                        </div>
+                    </div>
+                    <!-- Start third slide -->
+                    <!-- Start fourth slide -->
+                    <div class="da-slide">
+                        <h2 class="fittext2">Drone Technology</h2>
+                        <h4>Staff Capacity Growth</h4>
+                        <p>Our gets to learn more about drone flights for disaster response and preparedness.</p>
+                        <a href="#" class="da-link button">Read more</a>
+                        <div class="da-img">
+                            <img src="images/Drone_Training_to_Capacity_Staff.png" alt="Drone Training to Capacity Staff" width="320">
+                        </div>
+                    </div>
+                    <!-- End fourth slide -->
+                    <!-- Start cSlide navigation arrows -->
+                    <div class="da-arrows">
+                        <span class="da-arrows-prev"></span>
+                        <span class="da-arrows-next"></span>
+                    </div>
+                    <!-- End cSlide navigation arrows -->
+                </div>
+            </div>
+        </div>
+        <!-- End home section -->
+        <!-- Service section start -->
+        <div class="section primary-section" id="service">
+            <div class="container">
+                <!-- Start title section -->
+                <div class="title">
+                    <h1>What We Do?</h1>
+                    <!-- Section's title goes here -->
+                    <p>Open source tools and Open data are leveraged to support our work with limited resources available to provide standard and quality work. We work with a community model approach to provide opportunities to the local talent.</p>
+                    <!--Simple description for section goes here. -->
+                </div>
+                <div class="row-fluid">
+                    <div class="span4">
+                        <div class="centered service">
+                            <div class="circle-border zoom-in">
+                                <img class="img-circle" src="images/Disaster_Response.png" alt="Disaster Response Uganda">
+                            </div>
+                            <h3>Disaster Response</h3>
+                            <p>We provide geospatial support in times of disasters through imapct assessment for informed decission making by response agencies.</p>
+                        </div>
+                    </div>
+                    <div class="span4">
+                        <div class="centered service">
+                            <div class="circle-border zoom-in">
+                                <img class="img-circle" src="images/geospatial_data_visualization.png" alt="Geospatial Data Visualization" />
+                            </div>
+                            <h3>Geospatial Data Visualization</h3>
+                            <p>Project reporting, monitoring and evaluation for fundraizing, impact assessment is key. We provide this service with the application of GIS and open source tools.</p>
+                        </div>
+                    </div>
+                    <div class="span4">
+                        <div class="centered service">
+                            <div class="circle-border zoom-in">
+                                <img class="img-circle" src="images/mobile_data_collection.png" alt="Mobile Data Collection in Uganda">
+                            </div>
+                            <h3>Data Collection</h3>
+                            <p>We deploy mobile data collection techniques in different contexts that support research in regards to data collection using open source tools such as Open Data kit, Kobotoolbox, among others.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Service section end -->
+        <!-- Portfolio section start -->
+        <div class="section secondary-section " id="portfolio">
+            <div class="triangle"></div>
+            <div class="container">
+                <div class=" title">
+                    <h1>Have you seen our works?</h1>
+                    <p>Explore below our works in contexts of refugees, hosting communities, health industry, sustainable cities, financial inclusion, disaster preparedness and response, humanitarian response support, tourism exploration, monitoring and evaluation.</p>
+                </div>
+                <ul class="nav nav-pills">
+                    <li class="filter" data-filter="all">
+                        <a href="#noAction">All</a>
+                    </li>
+                    <li class="filter" data-filter="web">
+                        <a href="#noAction">Disaster Response</a>
+                    </li>
+                    <li class="filter" data-filter="photo">
+                        <a href="#noAction">Volunteership</a>
+                    </li>
+                    <li class="filter" data-filter="identity">
+                        <a href="#noAction">Open Mapping Initiative</a>
+                    </li>
+                </ul>
+                <!-- Start details for portfolio project 1 -->
+                <div id="single-project">
+                    <div id="slidingDiv" class="toggleDiv row-fluid single-project">
+                        <div class="span6" id="evidence">
+                                <img src="images/bundibugyo_STOPSPILLOVER.jpeg" alt="Bundibugyo STOPSPILLOVER">
+                                <p><i>Bat roasts mapping in Semuliki National Park.</i></p>
+                                <img src="images/Community Participatory Mapping_Bundidbugyo.jpeg" alt="Community Participatory Mapping Bundidbugyo District">
+                                <p><i> Community participatory mapping in Bundibugyo District.</i></p>
+                                <img src="images/Data Enumerators Training_Bundibugyo.jpeg" alt="Data Enumerators Training Bundibugyo District"> <p><i>Enumerators capacity growth training in Bundibugyo district on mobile data collection.</i></p>
+                                <img src="images/STOPSPILLOVER_Data_Collection.jpeg" alt="STOPSPILLOVER Data Collection">
+                                <p><i>Data collection in Semuliki National Park.</i></p>
+                                <img src="images/bundibugyo_bat_interface.png" alt="BAT"> 
+                                <p><i>Bat roast in a palm tree.</i></p>
+                            
+                        </div>
+                        <div class="span6">
+                            <div class="project-description">
+                                <div class="project-title clearfix">
+                                    <h3>STOP SpillOver, Uganda</h3>
+                                    <span class="show_hide close">
+                                        <i class="icon-cancel"></i>
+                                    </span>
+                                </div>
+                                <div class="project-info">
+                                    <div>
+                                        <span>Client:</span><a href="https://www.hotosm.org/" target="_blank"> <b>Humanitarian OpenStreetMap Team (HOT)</b></a></div>
+                                    <div>
+                                        <span>Project Period:</span> <b>August - December 2022</b></div>
+                                    <div>
+                                        <span>Location:</span><b>Bundibugyo District, Uganda</b></div>
+                                    <div>
+                                        <span>Links:</span><a href="https://bit.ly/StopSpillOverUg" target="_blank"> <b>Interactive Map</b></a>|   <b><a href="https://stopspillover.org/resources/Uganda"  target="_blank"> Blog</a></b>|   <b><a href="https://stopspillover.org/resources/updated-maps-bundibugyo-district-uganda" target="_blank">Maps</a></b></div>
+                                </div>
+                                <h3>Project Description</h3> 
+                                <p> HOT is part of the global consortium STOP Spill over that is engaging local and national partners across multiple countries to develop initiatives that can contribute to cartelling the likelihood of zoonotic diseases spreading from animals to human beings. <br><br>In Uganda, the STOPS team is working in and around communities close to National game parks and reserves especially in the district of Bundibugyo. With the Semuliki National Park in the North and Rwenzori National Park in the South, Bundibugyo district is built between two very biopic national parks with a variety of wildlife moving across. The Population and economic activity within the district is also on the rise with over 80% of the population relying on agriculture to have an income.This brings about an increase in wildlife and human interactions especially in the rural settings of the district. <br><br> For this project, OSM Uganda (Sub-Contracted by HOT) was to support the consortium to understand the spatial interactions between bats and humans in the hot spot targets. This involved mapping all major human infrastructure interactions like <b>schools, health centers, playgrounds, gardens, caves, tourist sites, roads, offices and homes</b>. Major bat nesting areas in and around the interaction sites was also mapped under this project with the guidance and support of the STOPS country Team.<br><br> The data collected was then used to create map products that will assist the STOPS team have an informed understanding of the human and bat interaction in the 3 Sub Counties of Bundibugyo district.</p>
+
+                                <h3> Actual Works </h3>
+                                <p>Under this assignment, OpenStreetMap Uganda, subcontracted by HOT, worked on the data collection and validation exercise of infrastructure in Bundibugyo district. This included collection of all human infrastructure interaction interfaces (point of interest including schools, health facilities, agricultural gardens, businesses etc) with Bats in the 3 hotspot sub-counties (Harugale, Ntandi TC, Burundo) in Bundibugyo district. <br><br>OSM Uganda further mapped the other 17 sub-counties to provide up-to-date maps to the communities of  Bundibugyo district and its leadership  to support informed planning decisions for the district.<br><br> Furthermore,
+                                <ul>
+                                      <li>On completion of data cleaning, data was uploaded to the OpenStreetMap platform.</li><br>
+                                      <li>Development and approval of a bat interface data collection tool.</li><br>
+                                      <li>Information map products were shared through the  creation and sharing of draft information map products (Interactive and static maps) with HOT, District administration (Sub County, RDC, CAO, LC 5 Chairperson’s offices) and STOPS consortium.</li>
+                                </ul>   
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End details for portfolio project 1 -->
+                    <!-- Start details for portfolio project 2 -->
+                    <!--div id="slidingDiv1" class="toggleDiv row-fluid single-project">
+                        <div class="span6" id="evidence">
+                            
+                                <img src="images/Data Collection mt Elgon.jpg" alt="Data Collection Mount Elgon">
+                                <h6><i>The Benet local community during data collection in Mt. Elgon areas.</i></h6>
+                                <img src="images/Elders_Mosop_Participartory_Mapping.png" alt="Elders_Mosop_Participartory_Mapping"> <h6><i> Preliminary participatory mapping using historical maps with the Benet Community representatives.</i></h6>
+                                <img src="images/Community Participatory Mapping_MOSOPYEK.png" alt="Community Participatory Mapping_MOSOPYEK"> <h6><i>Verification participatory mapping with the Benet community representatives.</i></h6>
+                                <img src="images/data review_benet_in_Kapchorwa.jpg" alt="Data Review Benet in Kapchorwa">
+                                <h6><i>In-field verification participatory mapping with the Benet community leaders at Kapchorwa.</i></h6>
+                                <img src="images/kupiswa_sub_territory_ancestral_territory_map.jpg" alt="Kupiswa sub territory ancestral territory map">
+                                <h6><i>Kupiswa sub-territory ancestral territory map.</i></h6>
+                                
+                            
+                        </div>
+
+                        <div class="span6">
+                            <div class="project-description">
+                                <div class="project-title clearfix">
+                                    <h3>Geospatial mapping for land conflict resolution --The Mosopisyek (Benet) of Mt. Elgon Uganda</h3>
+                                    <span class="show_hide close">
+                                        <i class="icon-cancel"></i>
+                                    </span>
+                                </div>
+                                <div class="project-info">
+                                    <div>
+                                        <span>Client:</span> <b><a href="https://peoplesunderthreat.org/">Minority Group International</a></b></div>
+                                    <div>
+                                        <span>Project Period:</span> <b>July - November 2022</b></div>
+                                    <div>
+                                        <span>Location:</span> <b>Kapchowra, Kween, Sironko, Bukwo, Bududa and Namisindwa Districts</b>
+                                    </div>
+                                    <div>
+                                        <span>Link:</span><a href="https://bit.ly/StopSpillOverUg"> </a></div>
+                                </div>
+                                     <h3>Project Description</h3>
+                                <p>OpenStreetMap Uganda working with the Minority Rights Group, supported on the geospatial mapping for land conflict resolution of the Mosopisyek ancestral territory of the Benet people. <br>The project of mapping for the Mosopisyek ancestral territory of the Benet people was completed in two phases. The first phase was the Priority Maps, which was a short-term project to provide basic maps for the Mosopisyek people in order to help them to assert their rights and gain recognition for their ancestral territory. In this phase, the following maps were created:</p>
+                                 <ul>
+                                    <li>Perimeter & Sub-Territory Boundaries for MOSOP</li>
+                                    <li>Administrative Boundaries Overlapping Mount Elgon National Park and MOSOP Territory</li>
+                                    <li>Human Settlement in MOSOP Territory</li>
+                                    <li>Preliminary Map of MOSOP Customary Uses of their Ancestral Homeland</li>
+                                    <li>Proposed Community Protected Areas</li>
+                                 </ul>
+
+                                <p>The second phase was the Additional Maps which was a long-term project to provide more detailed maps for the Mosopisyek people in order to help them to assert their rights and gain recognition for their ancestral territory. In this phase, the following maps were created:</p>
+                                    <ul>
+                                    <li>Customary Land Use Maps.</li>
+                                    <li>Four Sub-Territory Maps showing the above</li>
+                                    <li>Four Sub-Territory Maps showing the historical clan areas within each</li>
+                                    <li>Recognition of Land and Resource Rights Maps.</li>
+                                </ul>    
+
+                            <p>The maps were created using a combination of satellite imagery, GPS readings taken on-site (Features location) on Mount Elgon, and data collected from Mosopisyek elders and other stakeholders. In the process, 10 elders and leaders with smartphones were also trained and supported in the mapping and taking GPS readings reliably and keeping matching descriptive naming and other notes for each reading.</p> <img src="images/Areas_sites_subject_special_protection_under_mosopisyek.jpg" alt="Areas and sites subject for special protection under the mosopyek"> <h6><i>Areas and Sites subject for special protection under the Mosopyek.</i></h6>
+                            </div>
+                        </div>
+                    </div-->
+                    <!-- End details for portfolio project 2 -->
+                    <!-- Start details for portfolio project 3 -->
+                    <div id="slidingDiv2" class="toggleDiv row-fluid single-project">
+                        <div class="span6" id="evidence">
+                            
+                                <img src="images/OSM in Schools Kisoro District.png" alt="OSM in Schools Kisoro District #ADAI"> <h6><i>Kisoro Progressive Senior School students in a digital learning session.</i></h6>
+                                <img src="images/Africa Digital Access Initiative.png" alt="Africa Digital Access Initiative"><h6><i>Kisoro Progressive Senior School students in a digital learning session.</i></h6>
+                                <img src="images/Teachers Openmapping skilling.png" alt="Teachers Openmapping skilling"><h6><i>Teachers in Maracha District during a digital learning session.</i></h6>
+                                <img src="images/ADAI_OSM in Schools.png" alt="ADAI_OSM in Schools"> <h6><i>Geospatial Mapping Platform (<a href="https://www.osm.org"> OpenStreetMap</a>).</i></h6>
+                            
+                        </div>
+                        <div class="span6">
+                            <div class="project-description">
+                                <div class="project-title clearfix">
+                                    <h3>OpenStreetMap in Schools Program</h3>
+                                    <span class="show_hide close">
+                                        <i class="icon-cancel"></i>
+                                    </span>
+                                </div>
+                                <div class="project-info">
+                                    <div>
+                                        <span>Donor:</span><a href="https://www.hotosm.org" target="_blank"> <b>Humanitarian OpenStreetMap Team</a> (Opening Mapping Hub - Eastern & Southern Africa)</b></div>
+                                    <div>
+                                        <span>Project Period:</span> <b>May 2022 - May 2023</b></div>
+                                    <div>
+                                        <span>Location:-</span> <b>West Nile and Kigezi Region, Uganda</b></div>
+                                    <div>
+                                        <span>Links:</span><a href="https://adailabz.com/" target="_blank"> <b>https://adailabz.com</b></a>
+                                    </div>
+                                </div>
+                                       <h3>Project Description</h3>
+                                <p>
+                                    Uganda has a high youth population. Digital literacy has become an essential skill for young people to possess in today's society. However, many students in rural areas of Uganda lack access to the necessary tools and resources to develop their digital skills. This is where OpenStreetMap Uganda's proposed project comes in, aimed at promoting digital literacy in Uganda through geospatial mapping and leveraging the existing pool of PC-Laptops. 
+                                    <br><br>The project aimed to address the lack of access to ICT tools and resources which is a primary challenge in <b>fostering quality education</b>, especially in rural areas. The project aimed to address this challenge by providing ICT tools and learning materials to schools through a <b>shared basis model</b> combined with applying <b>geospatial</b> learning techniques.
+                                    <br><br>The activities to achieve the project objectives included:-
+                                      <ul> 
+                                           <li>Leveraging the OpenStreetMap Uganda’s existing ICT tools (PC-Laptops)</li>
+                                           <li>The development of learning materials on geospatial mapping and digital literacy</li>
+                                           <li>The training of teachers and students on the use of ICT tools and geospatial mapping.</li>
+                                           <li>The conduction  of workshops on the use of geospatial mapping for community development and empowerment.</li>
+                                      </ul>
+
+                                    The project was implemented in partnership with schools in different regions of Uganda to provide access to ICT resources and training that will enable students to develop their digital skills.
+                                    <br><br>
+                                    Students and teachers contributed geospatial data via the OSM platform that included; schools, roads, buildings among others were added on the map. This data that the project generated is being used in different ways by:
+
+                                    <ul>
+                                        <li>The local governments and authorities use the collected geospatial data to improve their urban planning and management.</li>
+                                        <li>The schools and universities use the data to enhance their research and educational activities.</li>  
+                                        <li>Partners like MySchool Today, are using the geospatial data to update the global schools map.</li>
+                                        <li>The students and teachers use the geospatial data to further their personal and professional development.</li>
+                                    </ul>
+                                    The OSM in School project is a component of the Africa Digital Access Initiative which is an on going program. For further details and updates please visit the program webiste <a href="https://www.adailabz.com/" target="_blank"> here</a> <b>https://adailabz.com</b>
+                                </p>
+                                <b>Blogs</b>
+                                    <ul>
+                                        <li> <a href="https://osmuganda.medium.com/osm-uganda-goes-electric-3c5f94ce295" target="js">Application of Climate friendily transport services on OSM in Schools Program</a></li>
+                                        <li> <a href="https://storymaps.arcgis.com/collections/63554f97adbf4792b306f4b85eb3e7af?item=2" target="_blank"> Providing ICT training and improving access to computers to bridge the digital divide in education - SDGS Today</a></li>
+
+                                        <iframe width="540" height="400" src="https://www.youtube.com/embed/DKVk6WNuY2M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                     </ul>  
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End details for portfolio project 3 -->
+                    <!-- Start details for portfolio project 4 -->
+                    <div id="slidingDiv3" class="toggleDiv row-fluid single-project">
+                        <div class="span6" id="evidence">
+                            
+                                <img src="images/Data Collection with Farmers on World Bank Research.png" alt="Data Collection with Farmers on World Bank Research"><h6><i>OpenStreetMap Uganda's Enuemrator (Mr. Asaba Valence) interacting with a Farmer in Apac District. </i></h6>
+                                <img src="images/Enumerators with Chris Browne for Farmer's survery field testing on world bank research.png" alt="Enumerators with Chris Browne for Farmer's survery field testing on world bank research"> <h6><i>Enumerators with Chris Browne from E4I - Mercy Corp for Farmer's survery field testing.</i></h6>
+                                <img src="images/Farmers Survey on World Bank Research.png" alt="Farmers Survey on World Bank Research"> <h6><i>OpenStreetMap Uganda's Enuemrator interacting with a Farmer in Nakasongola District.</i></h6>
+                                <img src="images/Farmer's survey on world bank research.png" alt="Farmer's survey on world bank research"> <h6><i>Ms. Alinda Kagadi with a farmer at his farm in Hoima District.</i></h6>
+                                <img src="images/Mercy Rose from E4I training enumerators on the Field survey etiqquete.png" alt="Mercy Rose from E4I training enumerators on the Field survey etiquete"> <h6><i>Mercy Rose from <a href="https://www.mercycorps.org/" target="_blank"> E4I-Mercy Corp</a> training enumerators on the Field survey etiquete.</i></h6>
+                        </div>
+                        <div class="span6">
+                            <div class="project-description">
+                                <div class="project-title clearfix">
+                                    <h3>Estimation of Electriity demand in the Agriculture Sector.</h3>
+                                    <span class="show_hide close">
+                                        <i class="icon-cancel"></i>
+                                    </span>
+                                </div>
+                                <div class="project-info">
+                                    <div>
+                                        <span>Client:</span><b>The World Bank</b></div>
+                                    <div>
+                                        <span>Project Period:</span> <b>May 2022 - Ongoing</b></div>
+                                    <div>
+                                        <span>Location:</span> <b>25 Districts in Uganda</b></div>
+                                    <div>
+                                        <span>Link:</span></div>
+                                </div>
+                                <h3> Project Description</h3>
+                                <p>Reliable demand estimation is a key parameter to electrification planning as well as the prioritization and  design of access programs to promote the productive use of energy (Banerjee et al, 2017). Demand  estimation analytics can help scale up the efforts to stimulate the productive use of electricity in the  agriculture sector. Prioritizing electrification by considering areas with existing or potentially high levels  of agricultural production and related energy demand may help,
+                                <ul> 
+                                    <li>Improve the financial viability of  access expansion through higher revenues for the utility.</li>
+                                    <li>Deliver greater economic benefits from  electrification to rural areas.</li>
+                                </ul>
+
+                                The global knowledge and evidence generated by this agricultural demand estimation and modeling  exercise could be then used to replicate successful approaches throughout the World Bank energy access  portfolio, and the findings from the work will be disseminated to further global knowledge and encourage  further studies or activities in this area. Uganda as of the countries for the pilot has been identified as it  has opportunities for large-scale electricity demand interventions.<br><br>
+
+                                The agricultural sector employs over 72% of the workforce; the potential for value addition and  mechanization of Uganda’s agricultural sector is low. For instance, more than 95% of farmers rely on  human power for their farming activities (UBOS) and less than 1% of the land is irrigated (WB, 2013).  Evidence suggests energy in agriculture increases farmers’ yield and income. For instance, 47 maize  shellers in the Busoga region in Uganda doubled local farmers’ incomes in 3 years. Providing electricity to  farmers that grow coffee, maize and beans, resulting in an annual income increase of 50% based on a  cost-benefit analysis for Kapchorwa, in rural eastern Uganda.<br>
+                                This study aims to 
+                              <ul>
+                                <li>Estimate electricity demand from the agriculture sector including irrigation and  agro-processing.</li>
+                                <li>Assess the opportunities and challenges to realize the potential electricity demand  from the agriculture sector in Uganda.</li>
+                              </ul>
+
+                                 For the national electricity demand estimation from agriculture activities, the approach would leverage various <b>geospatial data</b> as well as the data through the survey  approach. In addition, the project will utilize an existing World Bank operation in Uganda – Agriculture  Cluster Development Project (ACDP)(P145037). ACDP project supports activities and investments (termed  as ‘matching grants’) designed to raise both productivity and overall production of five priority crops - maize, beans, cassava, rice, and coffee in 12 selected high-potential agricultural areas in Uganda termed  <b>“clusters.”</b> 
+
+                                 <h3>Project Objectives</h3>
+                                 The objectives of this project consist of two pillars. 
+                                 <ul>
+                                    <li>First, this assignment aims to provide electricity  demand estimates from the agriculture sector including agro-processing and irrigation in Uganda through survey data on the ground and geospatial data gathered.</li><br>
+                                    <li>The second goal of this assignment is to provide  the recommended solutions to scale up and electrify the agriculture sector based on the assessment of  the opportunities and challenges on the ground. The solutions on how to tackle those obstacles shall be  also presented in the final output.</li><br><br>
+                                    <img src="images/Agro Processors Mapping on World Bank Research.png" alt="Agro Processors Mapping on World Bank Research"> <h6><i>Agro Processors Mapping.</i></h6>
+
+                                    Findings and lessons from the project shall be disseminated among  relevant stakeholders. <br><br>
+                                    The research project scope included surveys that is to cover <b>2,000 farmers, 200 Agro-processors, 75 Key informats, 75 Focus Group Discussions</b>.  
+
+                                 </ul>   
+
+                             </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End details for portfolio project 4 -->
+                    <!-- Start details for portfolio project 5 -->
+                    <div id="slidingDiv4" class="toggleDiv row-fluid single-project">
+                        <div class="span6" id="evidence">
+                            
+                                <img src="images/tourism_mapping_uganda.jpg" alt="Uganda Tourism Dashboard">
+                                <h6><i><a href="https://www.tourism.go.ug/uganda-tourism-guide-northern-uganda" target="_blank"> Uganda Tourism Guide:- Northern Uganda</a></i></h6>
+                                <img src="images/Aruu_Falls_Campsite.jpg" alt="Aruu Falls Campsite">
+                                <h6><i>Aruu Falls Campsite:- Northern Uganda </i></h6>
+                                <img src="images/Aruu_Falls_Uganda.jpg" alt="Aruu Falls">
+                                <h6><i>Aruu Falls:- Northern Uganda </i></h6>
+                                <img src="images/Baker_Fort_Patiko.jpg" alt="Baker's Fort Patiko">
+                                <h6><i>Baker's Fort Patiko:- Northern Uganda </i></h6>
+                            
+                        </div>
+                        <div class="span6">
+                            <div class="project-description">
+                                <div class="project-title clearfix">
+                                    <h3>Mapping Tourist Eco Systems in Northern Uganda</h3>
+                                    <span class="show_hide close">
+                                        <i class="icon-cancel"></i>
+                                    </span>
+                                </div>
+                                <div class="project-info">
+                                    <div>
+                                        <span>Client:</span><b><a href="https://www.tourism.go.ug/uganda-tourism-guide-northern-uganda" target="_blank">Ministry of Tourism,Wildlife and Antiquities</a></b></div>
+                                    <div>
+                                        <span>Project Period:</span><b>May 2022 - Ongoing</b></div>
+                                    <div>
+                                        <span>Location:</span><b>Northern Uganda (44 Districts)</b></div>
+                                    <div>
+                                        <span>Web-Map:</span><a href="https://www.tourism.go.ug/uganda-tourism-guide-northern-uganda" target="_blank"><b>Tourism Guide</b></a></div>
+                                </div>
+                                <p>OpenStreetMap Uganda in collaboration with the Ministry of Tourism, Wildlife and Antiquities (MOTWA) worked on the development of Uganda Tourism Guide for northern Uganda. This included mapping of lodging facilities, and other vital service areas that affect the tourism sector such as Hotels, Banks, Shopping centres, tourism sites.
+
+                                    <br><img src="images/Mapping for Tourism.jpg" alt="Mapping for Tourism"> <h6><i>Scope of Tourism Mapping</i></h6>
+
+                                The activities included:-
+                                <ul>
+                                    <li> Remote mapping that adopted use of satelite data to trace buildings and roads with the use of OpenStreetMap platform.</li>
+                                    <li> Field data collection that was done collaboratively with MOTWA - Tourism developement officers and the OpenStreetMap Uganda's mapping supervisors utilizing open data collections tools.</li>
+                                    <li> Data analysis and map production. Data was processed for analysis and web development that resulted to the production of static pdf maps and interractive maps. </li>
+                                    <li> Web - portal embedding of interactive maps to the MOTWA website for public access.</li>
+                                </ul>
+                                    Goal: 
+                                    <ul>
+                                        <li>To collect information on significant tourism locations, lodging facilities, and other vital service areas that affect the tourism sector.</li>
+                                    </ul>
+                                    Outcomes:
+                                    <ul>
+                                     <li>Paper version of the maps. <h7><i>(<a href="images/ugandatourismmap_northernuganda.pdf" target="_blank">Click here to download the Map</a>)</i></h7></li> 
+                                     <li>Interactive Map.<h7><i>(<a href="https://www.tourism.go.ug/uganda-tourism-guide-northern-uganda" target="_blank">Click here to access the map</a>)</i></h7></li>
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End details for portfolio project 5 -->
+                    <!-- Start details for portfolio project 6 -->
+                    <div id="slidingDiv5" class="toggleDiv row-fluid single-project">
+                        <div class="span6" id="evidence">
+                            
+                                <img src="images/Drainage Mapping.png" alt="Drainage Mapping"> <h6><i>MapUganda Mapping Supervisors using RTK technology to map a drainage in Kinawataka, Kampala.</i></h6>
+                                <img src="images/GNSS Calibration.png" alt="GNSS Calibration for Data Collection"><h6><i>OSM Uganda mapping team performing a GNSS Calibration for data collection on flooding.</i></h6>
+                                <img src="images/Flood_mapping.png" alt="Flood Mapping in Kampala"><h6><i>Mobile data collection using RTK technology.</i></h6>
+                                <img src="images/flood mapping.png" alt="Flood mapping in Kampala"><h6><i>OSM Uganda's Mapping supervisor Mr. Atibuni Innocent measuring the depth of a flooded drainage in Nalukolongo Drainage channel in Kampala.</i></h6>
+                                <img src="images/Participatory_Mapping_GKMA_Floods.png" alt="Flood mapping in Kampala"><h6><i>Idenfication of points on the channel to be mapped</i></h6>
+                                <img src="images/Kampala_Floods_Partipatory_Mapping.png" alt="Flood mapping in Kampala"><h6><i><b>Bobby Russell</b> - Project Manager (Stichting Deltares) working with stakeholders on a participatory mapping exercise in regard to flood mitigation in Kampala.</i></h6>
+                            
+                        </div>
+                        <div class="span6">
+                            <div class="project-description">
+                                <div class="project-title clearfix">
+                                    <h3>Technical support for the implementation of the Greater Kampala Integrated Flood Resilience Partnership</h3>
+                                    <span class="show_hide close">
+                                        <i class="icon-cancel"></i>
+                                    </span>
+                                </div>
+                                <div class="project-info">
+                                    <div>
+                                        <span>Client</span><b>Stichting Deltares</b></div>
+                                    <div>
+                                        <span>Project Period</span><b>April - July 2022</b></div>
+                                    <div>
+                                        <span>Location</span><b>Rubaga and Nakawa Divisions,Kampala City-Uganda</b></div>
+                                    <div>
+                                        <span>Link</span></div>
+                                </div>
+                                <h3>Project Description</h3>
+                                <p>The Ugandan Ministry of Water and Environment (MWE) in collaboration with the private sector, civil society organizations, government agencies and other stakeholders with support from Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) under the Natural Resources Stewardship Programme (NatuReS) are co-initiating and implementing the Greater Kampala Integrated Flood Resilience Partnership for flood resilience in the metropolitan area. <br><br> The overall objective of the Greater Kampala Integrated Flood Resilience Partnership is to promote investment in blue-green and innovative grey infrastructure, and inclusive solutions in up to two (2) sub/ micro -catchments in GKMA for improved urban resilience to flooding and enhanced socio-economic development in GKMA. Thus, specifically the partnership is aimed at:
+                                    <ul>
+                                      <li>Piloting sustainable blue-green infrastructure and innovative grey solutions to solid waste in drainage channels across specific locations to mitigate flooding, and safeguard jobs and investments.</li><br>
+                                      <li>Enhancing community and private sector engagement in flood control and stormwater management.</li>
+                                   </ul></p>
+                                <img src="images/GKMA_Flood_Mitigation.png" alt="Flood mapping in Kampala"><h6><i>Stakeholders' engagement in understanding the sope of the flood mitigation zones for the project.</i></h6>
+                                <p>Overall, the partnership is intended to contribute to: Safeguarding jobs and investments through measurable reduction of damages caused by flooding within specific locations within GKMA; Strengthening the evidence base on optimization pathways to inform the integration of blue-green and innovative grey infrastructure solutions for flood resilience in an urban setting; Empowering communities for flood resilience through improved capacities of private, public, and civil society actors in mainstreaming and implementing flood resilience actions; Demonstrating collective and inclusive (private, public, and civil society) planning and investment in flood resilience and ensuring measurable reduction of solid waste in stormwater drainage channels within GKMA.
+                                </p>
+                                <h3>Actual Works</h3>
+
+                                    Under this assignment, OpenStreetMap Uganda developed a data collection platform ensuring that all cross-sections and drains had unique identifications. Mapped the drain cross-sections, the culvert/bridge dimensions and locations. The mapping consisted of recording the channel, culvert and bridge cross-sections where water should flow through using a high-accuracy global position system. For the channel cross-sections the mapped information included:
+                                    <ul>
+                                      <li>Ground/bed level position (XYZ) at approximately one meter increments along a linear transect perpendicular to the flow direction.</li><br>
+                                      <li>The transect (also called a cross-section),  started at the top of the channel bank and proceeded to the top of the opposite bank.</li>
+                                    </ul>   
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End details for portfolio project 6 -->
+                    <!-- Start details for portfolio project 7 -->
+                    <div id="slidingDiv6" class="toggleDiv row-fluid single-project">
+                        <div class="span6" id="evidence">
+                        
+                                <img src="images/manufacturer mapping.png" alt="manufacturer mapping"><h6><i>Mapping welding business.</i></h6>
+                                <img src="images/Sanitizer and Manufacturing Plant.png" alt="manufacturer mapping">
+                                <h6><i>OpenStreetMap Uganda team visit to a Sanitizer and alcohol manufacturing plant in Kawempe, Kampala City.</i></h6>
+                                <img src="images/Uganda Industrial Research Institute.png" alt="manufacturer mapping">
+                                <h6><i>OpenStreetMap Uganda team visit to Uganda Industrial Research Institute (UIRI) in Namanve, Wakiso District.</i></h6>
+                                <img src="images/Internet of Production Alliance.jpg" alt="Internet of Production Alliance"><h6><i>Manufacturers' Capabilities Dashboard</i></h6>      
+                        </div>
+                        <div class="span6">
+                            <div class="project-description">
+                                <div class="project-title clearfix">
+                                    <h3>Manufacturer’s Capabilities Mapping</h3>
+                                    <span class="show_hide close">
+                                        <i class="icon-cancel"></i>
+                                    </span>
+                                </div>
+                                <div class="project-info">
+                                    <div>
+                                        <span>Client:</span><b><a href="https://www.internetofproduction.org/" target="_blank"> Internet of Production Alliance (IOPA)</a></b></div>
+                                    <div>
+                                        <span>Project Period:</span><b>April 2022</b></div>
+                                    <div>
+                                        <span>Location:</span><b>Kampala City(Kampala Industrial Park and Kawempe Division) and Wakiso District (Namanve Industrial Park)</b></div>
+                                    <div>
+                                        <span>Link:</span><b><a href="https://studio.foursquare.com/public/fd378923-9543-493d-b763-4c1343008b6d" target="_blank">Manufaturer's Dashboard</a></b> | <a href="https://www.hotosm.org/projects/protecting-the-frontlines-project-kenya-and-uganda/" target="_blank"><b>Blog</b></a></div>
+                                </div>
+                                <h3>Project Description</h3>
+                                <p>With the wide network of volunteers across Uganda, OpenStreetMap Uganda collaborated with Humanitarian OpenStreetMap Team and <a href="https://www.fieldready.org/post/working-together-to-protect-the-frontline" target="_blank"> Field Ready</a> (Supporting Frontliners for COVID-19 Response Project) on mapping manufacturers'capabilities to promote local manufacturing. The project focus was specific for production of PPEs. The team at OpenStreetMap Uganda proposed to map manufacturing capabilities in other sectors such as construction materials, agricultural machinery, and bottling companies. Mapping local manufacturing companies will help to further promote local purchase of locally manufactured goods, because people in Uganda and Africa at large companies tend to import goods from outside the country. This Award was to support continuation of the manufacturer’s capabilities mapping.</p>  
+                                <img src="images/NYTIL mapping.png" alt="NYTIL mapping"><h6><i>OpenStreetMap Uganda team at NYTIL Industries industries in Jinja City.</i></h6>
+                                <h3>Actual Works</h3>
+                                <p>OpenStreetMap Uganda geospatially mapped <b>manufacturers capabilities</b> around Kampala industrial Area, Namanve Industrial Park and other areas around Kampala and Greater Kampala. During this data collection exercise we targeted large, medium and small scale manufacturing facilities in order to <b>boost local manufacturing and supply</b>. We were able to collect data from over 400 manufacturers.<br><br>The project aimed at mapping out different manufacturers to determine their capabilities  based on their <b>equipment, inputs and number of products</b> produced per day. The data features included:-
+                                    <ul>
+                                      <li>The name, address and location of the manufacturing facility.</li><br>
+                                      <li>The products they manufacture and their daily production capacity.</li><br>
+                                      <li>The equipment and utilities to they use to determinea their manufacturing capacity.</li><br>
+                                      <li>The required inputs for the production process of the manufacturer.</li>
+                                    </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End details for portfolio project 7 -->
+                    <!-- Start details for portfolio project 8 -->
+                    <div id="slidingDiv7" class="toggleDiv row-fluid single-project">
+                        <div class="span6" id="evidence">
+                            
+                                <img src="images/somalia waste management mapping.PNG" alt="somalia waste management mapping"><h6><i>Solid Waste mapping in Mogadishu using the HOT tasking manager platform</i></h6>
+                                <img src="images/Mapathon.jpg" alt="Mapathon"><h6><i>OSM Uganda Team remote mapping.</i></h6>
+                            
+                        </div>
+                        <div class="span6">
+                            <div class="project-description">
+                                <div class="project-title clearfix">
+                                    <h3>Remote Mapping for Solid Waste Management Project in Mogadishu</h3>
+                                    <span class="show_hide close">
+                                        <i class="icon-cancel"></i>
+                                    </span>
+                                </div>
+                                <div class="project-info">
+                                    <div>
+                                        <span>Partner:</span><b>OpenStreetMap Somalia | HOT</b></div>
+                                    <div>
+                                        <span>Project Period:</span><b>January - May 2022</b></div>
+                                    <div>
+                                        <span>Location:</span><b>Mogadishu, Somalia</b></div>
+                                    <div>
+                                        <span>Link:</span><b>Blog | <a href="https://tasks.hotosm.org/projects/11372" target="_blank">Task Manager</a></b></div>
+                                </div>
+                                <h3> Project Description</h3>
+                                <p> The project is a part of the <a href="https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099520111152222205/p179775046e9b70b0a40d01a3b1ab919ed" target="_blank"> Somalia Urban Resilience Project Phase II (SURP-II)</a> program, supported by the World Bank and the Federal Government of Somalia.</p>
+
+                                <p>Solid Waste Mapping in Mogadishu seeks to analyze the current Solid Waste Management systems in the city and identify key challenges and means to tackle them, and subsequently pilot activities to improve collection and disposal in project-supported areas.
+
+                                The main objective of this project is to build local capacity to develop accurate, up-to-date information and insights that can support real-time decision-making with regard to solid waste management.</p>
+
+                                <p> OpenStreetMap Uganda collaborated with OpenStreetMap Somalia to digitize the city's buildings, roads and other amenities of Mogadishu. Tools that included JOSM, HOTOSM Tasking Manager, Satellite Imagery were utilized on the project.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End details for portfolio project 8 -->
+                    <!-- Start details for portfolio project 9 -->
+                    <div id="slidingDiv8" class="toggleDiv row-fluid single-project">
+                        <div class="span6" id="evidence">
+                            
+                                <img src="images/Cycle of Web Map Application Development.png" alt="Cycle of Web Map Application Development"> <h6><i>Cycle of Web Map Application Development</i></h6>
+                                <img src="images/NURI Dashboard Overview.png" alt="Northern Uganda Resilience Initiative Dashboard Overview"><h6><i>NURI Dashboard Overview</i></h6>
+                                <img src="images/Food Forest overview of NURI program.png" alt="Food Forest overview of Northern Uganda Resilience Initiative program"><h6><i>Food Forest overview of NURI program.</i></h6>
+                                <img src="images/Spring Protection overview of NURI Program.png" alt="Spring Protection overview of Northern Uganda Resilience Initiative Program"> <h6><i>Spring Protection overview of NURI Program.</i></h6>
+                            
+                        </div>
+                        <div class="span6">
+                            <div class="project-description">
+                                <div class="project-title clearfix">
+                                    <h3>Geospatial MERL Dashboard and Atlas Development</h3>
+                                    <span class="show_hide close">
+                                        <i class="icon-cancel"></i>
+                                    </span>
+                                </div>
+                                <div class="project-info">
+                                    <div>
+                                        <span>Client:</span><b><a href="https://drc.ngo/" target="_blank">Danish Refugee Council (DRC)</a></b></div>
+                                    <div>
+                                        <span>Project Period:</span><b>November 2021 - July 2023</b></div>
+                                    <div>
+                                        <span>Location:</span><b>Arua, Rhino Camp, Nebbi, Koboko, Imvepi, Pakwach, Kitgum, Agago, Lamwo, Adjumani, Moyo, Obongi, and Zombo</b></div>
+                                    <div>
+                                        <span>Link:</span><a href="" target="_blank"> WebMap</a> | <a href="" target="_blank"> Atlas </a>| <a href="https://nuri.ag/" target="_blank">NURI</a></div>
+                                </div>
+
+                                <h3>Project Description</h3>
+                                <p>The DRC (Danish Refugee Council) GIS Dashboard is an initiative engineered under <a href="https://nuri.ag/" target="_blank"> Northern Uganda Resilience Initiative (NURI)</a> programme Which is one of the three development engagements under the Denmark Uganda Country programme 2018- 2022.<br><br> 
+
+                                On the program, OpenStreetMap Uganda collaborated with Danish Refugee Council (DRC) to visualize the NURI project with the application of geospatial techniques to produce a web map and an atlas.<br><br>
+
+                                The objective of NURI is being achieved through these strategic inventions:
+                                <ul>
+                                    <li>Climate smart Agriculture.</li>
+                                    <li>Rural Infrastructure (IR)</li> 
+                                    <li>Water Resources Management (WRM).</li>
+                                </ul>
+
+                                The program was implemented in 13 districts in the West-Nile and Acholi sub regions: Arua, Madi-Okollo, Terego, Koboko, Nebbi, Zombo, Pakwach, Adjumani, Moyo, Obongi, Lamwo, Kitgum and Agago. Additionally, the project is benefiting both refugees and host communities in five refugee settlements: 
+                                <ul>
+                                    <li>Rhino camp.</li>
+                                    <li>Imvepi</li>
+                                    <li>Palorinya </li>
+                                    <li>Adjumani</li>
+                                    <li>Palabek settlements.</li>
+
+                                </ul>
+                                Water Resources Management interventions were implemented in 8 microcatchments of; Yelulu, Ayila Abongo, Nyarwodho, Ora, Nyivura, Iboa, Ogwapoke and Awic. The created community assets include: <b>Food forest (FF), Community Access Roads (CAR), Green Roads for Water (GR4W), Water Ponds, Spring protection, Soil and water conservation(SWC)</b>.
+
+                                <b>Dashboard (WebMap) and Atlas Objective</b>
+                                The web map can be utilized in a couple of ways that  include:-
+                                <ul>
+                                    <li>Addressing the need for fast, easy access to multi-layered GIS data and tools for the purposes of planning and sustainability leveraging the data for the NURI program.</li>
+                                    <li>Enable stakeholders and the public access to the results of the analyses, particularly outputs from the Rural Infrastructure and Water resources site-matching and suitability analysis.</li>
+                                    <li>Offer advantages to project managers and donors, district local governments, such as quicker result generation, in depth analysis, convenience, and cost reduction.</li>
+                                    <li>The WebMap is a promising decision support tool for Rural infrastructure and water resources management planning and management.</li>
+                                </ul>
+
+                                The NURI Project Dashboard and Atlas intended to give an overview about projects carried out under the NURI (Northern Uganda Resilience Initiative) program. That is giving details such as the status, which will enable all the stakeholders to engage and understand the impact of the work done on the program.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End details for portfolio project 9 -->
+                    <!-- Start details for portfolio project 10 -->
+                    <div id="slidingDiv10" class="toggleDiv row-fluid single-project">
+                        <div class="span6" id="evidence">
+                            
+                                <img src="images/tourism_mapping_uganda.jpg" alt="Uganda Tourism Dashboard">    
+                        </div>
+                        <div class="span6">
+                            <div class="project-description">
+                                <div class="project-title clearfix">
+                                    <h3>Toolkit for Measuring Trust in Official Statistics</h3>
+                                    <span class="show_hide close">
+                                        <i class="icon-cancel"></i>
+                                    </span>
+                                </div>
+                                <div class="project-info">
+                                    <div>
+                                        <span>Client:</span><b>Paris21</b></div>
+                                    <div>
+                                        <span>Project Period:</span><b>May 2019 - December 2022</b></div>
+                                    <div>
+                                        <span>Location:</span><b>Kampala</b></div>
+                                    <div>
+                                        <span>Partners:</span><b><a href="https://www.mak.ac.ug/" target="_blank"> Makerere University</a></b></div>
+                                </div>
+
+                                <h3>Project Description</h3>
+                                <p>This toolkit is a product of the review of the literature and a qualitative study about what trust in official statistics means and how it should be measured. The study was undertaken by OpenStreetMap Uganda and Makerere University and was funded by Paris 21. 
+                                <br><br>The meaning of trust in official statistics and how to measure trust in official statistics from the literature is spelled out in chapter one of the report. Chapter two describes the methodology used to collect and analyze data for the qualitative study to generate how trust in official statistics is understood and measured in Uganda. How trust in official statistics is defined and measured in Uganda is explained. Also, in chapter three the tools for measuring trust in official statistics was developed and presented. Summary and recommendations are discussed in chapter four of the report.</p>
+                                 <h6>Study Objectives</h6>
+                                <p>The major objective of this work was to develop a toolkit to measure trust in official statistics and Trust in institutions that produce statistical products. The specific study objectives inlcuded:-
+                                    <ol>
+                                        <li>Meaning of trust in official statistics is provided in detail.</li>
+                                        <li>Conceptual framework for the trust measurement toolkit.</li>
+                                        <li>The perspective of Uganda as a case study.</li>
+                                    </ol>
+                                </p>
+
+                                <h6>Tools for Measuring Trust:-</h6>
+                                <ul>
+                                    <li>Tools for Measuring Trust.</li>
+                                    <li>Self-administered tools.</li>
+                                    <li>Feedback mechanisms, a survey among users and institutions.</li>
+                                    <li>Assessments, audits, and surveillance.</li>
+                                </ul>
+                                <h6> Recommendations</h6>
+                                <p>The measurement of trust in official statistics and in institutions producing statistics should be done frequently over a defined period of time.<br> The strategy should clearly spell out how trust levels will be measured, behaviors and actions to be changed, the resources required, and the time frame.</p> 
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End details for portfolio project 10-->
+                    <!-- Start details for portfolio project 11 -->
+                    <div id="slidingDiv11" class="toggleDiv row-fluid single-project">
+                        <div class="span6" id="evidence">
+                            
+                                <img src="images/Lekuru Victoria Mapping a Land parcel in Nebbi District.png" alt="Lekuru Victoria Mapping a Land parcel in Nebbi District"><h6><i>Data Enumerator mapping a land parel in Nebbi District.</i></h6>
+                                <img src="images/stakeholders participatory mapping activity in Omoro district.jpg" alt="stakeholders participatory mapping activity in Omoro district"> <h6><i>Stakeholders participatory mapping activity in Omoro district.</i></h6>
+                                <img src="images/Enumerators Training in Gulu District.jpg" alt="Enumerators Training in Gulu District"><h6><i>Enumerators Training in Gulu District.</i></h6>
+                                <img src="images/Parcels developed by ML and AI for field mapping.png" alt="Parcels developed by ML and AI for field mapping"><h6><i>Parcels developed by ML and AI for field mapping</i></h6>
+                            
+                        </div>
+                        <div class="span6">
+                            <div class="project-description">
+                                <div class="project-title clearfix">
+                                    <h3>COP4GEOGLAM</h3>
+                                    <span class="show_hide close">
+                                        <i class="icon-cancel"></i>
+                                    </span>
+                                </div>
+                                <div class="project-info">
+                                    <div>
+                                        <span>Client:</span><b>European Union</b></div>
+                                    <div>
+                                        <span>Project Period:</span><b>July 2020 - August 2021</b></div>
+                                    <div>
+                                        <span>Location</span><b>Northern Uganda - 41 Districts</b></div>
+                                    <div>
+                                        <span>Link:</span></div>
+                                </div>
+                                <h3>Project Description</h3>
+                                <p>Crop type mapping during the first growing season.  To support the ad-hoc baseline of crop monitoring, Uganda being one of the countries selected as a case study ground, OpenStreetMap Uganda was required to make field visits to the selected areas of interest and map crop type and other land uses identified in these parcels.</p>
+                                
+                                <img src="images/geoglam Uganda Scope.png" alt="COP4GEOGLAM Uganda Scope"><h6><i>COP4GEOGLAM Uganda Scope.</i></h6>
+
+                                <p>The activities were covered in the months of May through to Mid July with a number of obstacles revolving around the pandemic COVID-19. A number of methodologies were deployed to achieve the success of the project.Tools deployed in the field included OpenDataKit, Kobotoolbox Server and excel spreadsheet. Means of transport used included a ferry to cross River Nile, Boda Bodas (Motorcycle), and Cars. Visualization softwares such as QGIS, Umap, and Google Data Studio were utilized to monitor progress and report on the field work.</p>
+
+                                <img src="images/Field Mapping.jpg" alt="Field Mapping"><h6><i>GPS reading in field mapping using ODK.</i></h6>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End details for portfolio project 11-->
+                    <!-- Start details for portfolio project 12-->
+                    <div id="slidingDiv12" class="toggleDiv row-fluid single-project">
+                        <div class="span6" id="evidence">
+                            
+                                <img src="images/Mapillary Photo Mapping.jpg" alt="Mapillary Photo Mapping">
+                                <h6><i>Mapillary Photo Mapping</i></h6>
+                                
+                            
+                        </div>
+                        <div class="span6">
+                            <div class="project-description">
+                                <div class="project-title clearfix">
+                                    <h3>PhotoMapping New Cities</h3>
+                                    <span class="show_hide close">
+                                        <i class="icon-cancel"></i>
+                                    </span>
+                                </div>
+                                <div class="project-info">
+                                    <div>
+                                        <span>Donor:</span><b>Meta (Facebook)</b></div>
+                                    <div>
+                                        <span>Project Period:</span><b>March - December 2021</b></div>
+                                    <div>
+                                        <span>Location:</span><b>Arua, Mbale, Gulu, Mbarara, Masaka, Fortportal, Lira, Jinja, Soroti, Entebbe Cities</b></div>
+                                    <div>
+                                        <span>Link</span> <a href="https://www.hotosm.org/projects/mapuganda-photomapping-ugandas-new-cities-using-mapillary/" target="_blank"> Blog</a></div>
+                                </div>
+                                <h3> Project Description</h3>
+
+                                    <h6>Facebook Community Impact Microgrant</h6>
+
+                                    <p>In July 2020, 15 municipalities in Uganda attained city status as a result of the ever-increasing population due to rural-to-urban migration. The new cities lack up-to-date geospatial information, limiting the effective extension and monitoring of services and settlement across these new cities. Information about road conditions, garbage collection, environmental degradation, and adherence to physical plans is not readily available to the city planners.<br><br>
+                                    OpenStreetMap Uganda built upon its existing remote mapping efforts in the ongoing “mapping of the new cities initiative” by engaging the YouthMapper chapters and the general OSM community in a nationwide Mapillary campaign to generate over 100,000 new street-level images. These used to add more detailed road information to OpenStreetMap, such as data about street lights, road conditions, building heights, building materials and business information, that will be shared and used by the Ministry of Lands and city authorities to plan and monitor the new cities more effectively.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End details for portfolio project 12-->
+                    <!-- Start details for portfolio project 13-->
+                    <div id="slidingDiv13" class="toggleDiv row-fluid single-project">
+                        <div class="span6" id="evidence">
+                            
+                                <img src="images/Community Participatroy mapping in Gulu district.jpg" alt="Community Participatroy mapping in Gulu district"><h6><i>Community Participatroy mapping in Gulu district</i></h6>
+                                <img src="images/noble farms seed distribution.jpg" alt="noble farms seed distribution">
+                                <h6><i>Noble Farms Uganfa seed distribution enumerators training</i></h6>  
+                        </div>
+                        <div class="span6">
+                            <div class="project-description">
+                                <div class="project-title clearfix">
+                                    <h3>Farmer's Seed distribution</h3>
+                                    <span class="show_hide close">
+                                        <i class="icon-cancel"></i>
+                                    </span>
+                                </div>
+                                <div class="project-info">
+                                    <div>
+                                        <span>Client:</span><b><a href="https://agriprofocus.com/profile/36734" target="_blank"> Noble Farms Uganda Limited</a></b></div>
+                                    <div>
+                                        <span>Project Period:</span>2020</div>
+                                    <div>
+                                        <span>Location:</span><b>Gulu District</b></div>
+                                    <div>
+                                        <span></span></div>
+                                </div>
+                                <p>OpenStreetMapUganda in collaboration with OpenGIS Uganda worked with Noble Farms Uganda Limited, private agricultural training and inputs provider to introduce open mapping GIS  tools and technology to improve efficiency in their work.
+                                <br><br>Noble Farms Uganda Limited provides farmers with inputs that include seeds, agricultural machinery like tractors, and training on post-harvesting. In order to effectively plan and target farmers' needs, Noble Farms with support from OSM Uganda and OpenGIS Uganda embarked on setting up <b>a farmer profile and needs a platform.</b> <br><br>The Farmer profile platform is a low-cost GIS platform that allows Noble farms to easily locate and monitor their farmers as well as identify their needs early enough. This allows stock the adequate amounts of  seeds and tools for the various agricultural seasons. The farmer profile platform also allows Noble farms to plan for effective delivery, maintenance, and monitoring of the agricultural equipment supplied and hired.<br><br>Farmers in remote and rural areas of Uganda face a huge challenge accessing quality seeds and agricultural inputs, the farmer profile platform in many cases eases the identification of farmers and allow easy location and tracking of farmers for noble farms Uganda ltd and other agricultural extension services providers to supply good quality seeds and agricultural inputs, this also in turn helps improve the farmer’s harvests and crop output.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End details for portfolio project 13-->
+                    <!-- Start details for portfolio project 14-->
+                    <div id="slidingDiv8" class="toggleDiv row-fluid single-project">
+                       <div class="span6" id="evidence">
+                            
+                                <img src="images/tourism_mapping_uganda.jpg" alt="Uganda Tourism Dashboard">
+                                <br><br>
+                                <img src="images/Aruu_Falls_Campsite.jpg" alt="Aruu Falls Campsite">
+                                <br><br>
+                                <img src="images/Aruu_Falls_Uganda.jpg" alt="Aruu Falls">
+                                <br><br>
+                                <img src="images/Baker_Fort_Patiko.jpg" alt="Baker's Fort Patiko">
+                            
+                        </div>
+                        <div class="span6">
+                            <div class="project-description">
+                                <div class="project-title clearfix">
+                                    <h3>Mapping Uganda's New Cities</h3>
+                                    <span class="show_hide close">
+                                        <i class="icon-cancel"></i>
+                                    </span>
+                                </div>
+                                <div class="project-info">
+                                    <div>
+                                        <span>Client</span>OpenStreetMap Foundation</div>
+                                    <div>
+                                        <span>Project Period</span>2020</div>
+                                    <div>
+                                        <span>2020</span>Arua, Mbale, Gulu, Mbarara, Masaka, Fortportal, Lira, Jinja, Soroti, Entebbe Cities</div>
+                                    <div>
+                                        <span>Link</span>http://examplecomp.com</div>
+                                </div>
+                                <p>I learned that we can do anything, but we can't do everything... at least not at the same time. So think of your priorities not in terms of what activities you do, but when you do them. Timing is everything.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End details for portfolio project 14-->
+
+                    <!-- Start details for portfolio project 15-->
+                    <div id="slidingDiv15" class="toggleDiv row-fluid single-project">
+                       <div class="span6" id="evidence">
+                            
+                                <img src="images/Data collection uisng bodabodas in kampala.jpg" alt="Data collection uisng bodabodas in kampala"><h6><i>Data collection uisng bodabodas in Kampala City</i></h6>
+                                <img src="images/Hillary Musundi mapping rubbish bins in Kampala.jpg" alt="Hillary Musundi mapping rubbish bins in Kampala"><h6><i>Hillary Musundi mapping rubbish bins in Kampala</i></h6>
+                                <img src="images/Map Products sharing with Kampala division offices.jpg" alt="Map Products sharing with Kampala division offices"><h6><i>Map Products sharing with Kampala division offices</i></h6>
+                                <img src="images/map showing  waste collection points in Kampala.jpg" alt="map showing  waste collection points in Kampala"><h6><i>Map showing  waste collection points in Kampala City</i></h6>
+                        </div>
+                        <div class="span6">
+                            <div class="project-description">
+                                <div class="project-title clearfix">
+                                    <h3>Smart Cities:Clean Streets Kampala</h3>
+                                    <span class="show_hide close">
+                                        <i class="icon-cancel"></i>
+                                    </span>
+                                </div>
+                                <div class="project-info">
+                                    <div>
+                                        <span>Donor:</span><b>OpenStreetMap Foundation</b></div>
+                                    <div>
+                                        <span>Project Period:</span></div>
+                                    <div>
+                                        <span>Project location:</span></div>
+                                    <div>
+                                        <span>Link:</span></div>
+                                </div>
+                                <p>OpenStreetMap Uganda collaborated with Youth Mappers at Makerere University, Bodaboda (Motorcyclists) and Kampala Capital City Authority(KCCA) officials to map out garbage collection points and routes in the city with an aim of using citizen generated data to increase Kampala’s profile as a Smart City.</p>
+
+                                <img src="images/Rubbish dump in Kampala Slums.jpg" alt="Rubbish dump in Kampala Slums"><h6><i>Rubbish dump in Kampala Slums</i></h6>
+
+                                <p> The teams mapped garbage sites across the five divisions that make up Kampala City utilising the open source tools such as Open Data Kit (ODK) and Open Map Kit (OMK), JOSM, to collect and upload data to OpenStreetMap.</p>
+                                <table>
+                                    <tr>
+                                        <th>Amenity</th>
+                                        <th>Central</th>
+                                        <th>Nakawa</th>
+                                        <th>Makindye</th>
+                                        <th>Kawempe</th>
+                                        <th>Rubaga</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Recycling</td>
+                                        <td>138</td>
+                                        <td>6</td>
+                                        <td>1</td>
+                                        <td>5</td>
+                                        <td>2</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Waste Basket</td>
+                                        <td>19</td>
+                                        <td>2</td>
+                                        <td>0</td>
+                                        <td>2</td>
+                                        <td>13</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Waste Disposal</td>
+                                        <td>178</td>
+                                        <td>7</td>
+                                        <td>217</td>
+                                        <td>3</td>
+                                        <td>45</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Waste Transfer Station</td>
+                                        <td>6</td>
+                                        <td>5</td>
+                                        <td>0</td>
+                                        <td>13</td>
+                                        <td>1</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Illegal Dumping Sites</td>
+                                        <td>83</td>
+                                        <td>305</td>
+                                        <td>165</td>
+                                        <td>408</td>
+                                        <td>398</td>
+                                    </tr>
+                                </table>
+                                <h3>Products Dissemination</h3>
+                                <ul>
+                                    <li> An online visualization of the data using Umap service.</li>
+                                    <li> Printed static maps where handed over to the city authorities to help them improve sanitation by tracking where there is illegal dumping and provide infrastructure where there are gaps.</li> 
+                                    <li>Statistics showing the clean divisions depending on the number of illegal dumping sites.</li> 
+                                    <li>Data sharing through different data formats like shapefile, CSV and Geojson</li>
+                                    <li>Open data available on OpenStreetMap and freely accessed using overpass query</li>
+                                </ul>
+
+                                <img src="images/Map showing Kampala divisions based on the cleanest.png" alt="Map showing Kampala divisions based on the cleanest"><h6><i>Map showing Kampala divisions based on the cleanest</i></h6>
+
+                                <h3>Project Outcomes</h3>
+                                <ul>
+                                    <li>KCCA has been able to identify the gaps in waste disposal infrastructure through maps.</li>
+                                    <li>KCCA to provide infrastructure to areas that have been identified to be having illegal dumping sites and to fight against illegal dumping in areas where the infrastructure exist.</li>
+                                    <li>Knowledge on the use of mobile data collection techniques, OSM and QGIS has been imparted to the solid waste management staff at KCCA.</li> 
+                                    <li>MapUganda to continue supporting the city authority on solid waste management through repeated mapping.</li>
+                                </ul>
+                                <h3>Next Steps</h3>
+                                <ul>
+                                    <li>MapUganda would like to continue this work and are open to pathways for funding and partnerships to expand this work in Kampala and to train other cities and sites.</li> 
+                                    <li>MapUganda also proposes engaging private garbage collecting companies in the city and train them on the use of the apps and OSM to identify the gaps in their service delivery.</li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End details for portfolio project 16-->
+                    <!-- Start details for portfolio project 17-->
+                    <div id="slidingDiv17" class="toggleDiv row-fluid single-project">
+                        <div class="span6" id="evidence">
+                            
+                                <img src="images/masaka city map.png" alt="masaka city map">
+                                <h6><i>Masaka City Map</i></h6>
+                                <img src="images/Mbarara City Map.png" alt="Mbarara City Map">
+                                <h6><i>Mbarara City Map</i></h6>
+                                <img src="images/Gulu City Map.png" alt="Gulu City Map">
+                                <h6><i>Gulu City Map</i></h6>
+                                <img src="images/Lira City Map.png" alt="Lira City Map"><h6><i>Lira City Map</i></h6>
+                                <img src="images/GIS Digital Property  Register Dashboard.png" alt="GIS Digital Property  Register Dashboard"><h6><i>GIS Digital Property  Register Dashboard</i></h6>
+                                <img src="images/Property details.png" alt="Property details"><h6><i>Property Details</i></h6>
+                                <img src="images/Buildings Dashboard.png" alt="Buildings Dashboard"><h6><i>Buildings Dashboard</i></h6>
+                            
+                        </div>
+                        <div class="span6">
+                            <div class="project-description">
+                                <div class="project-title clearfix">
+                                    <h3></h3>
+                                    <span class="show_hide close">
+                                        <i class="icon-cancel"></i>
+                                    </span>
+                                </div>
+                                <div class="project-info">
+                                    <div>
+                                        <span>Client:</span><b><a href="https://www.usaid.gov/uganda" target="_blank"> USAID - DRM4D</a></b></div>
+                                    <div>
+                                        <span>Project Period:</span><b>March 2022 - July 2023</b></div>
+                                    <div>
+                                        <span>Location:</span><b>Gulu, Lira, Mbarara and Masaka Cities</b></div>
+                                    <div>
+                                        <span>Partners:</span><b><a href="https://www.knightfrank.ug/" target="_blank"> Knight Frank Uganda</a></b></div>
+                                    <div>
+                                        <span>Links:</span><b><a href="https://pdf.usaid.gov/pdf_docs/PA00ZHB8.pdf" target="_blank"> Mid Term Report</a>| <a href="https://pdf.usaid.gov/pdf_docs/PA00ZTKJ.pdf" target="_blank">Final Report</a>  </b></div>
+                                </div>
+
+                                <h3>Project Desription</h3>
+                                <p>In 2020, the United States Agency for International Development (USAID) initiated the Uganda Domestic Resource Mobilization for Development (DRM4D) activity to support the Government of Uganda fast track and monitor its journey to self-reliance and increase domestic spending on health, education, agriculture, and other public services. The project commenced on January 21, 2020 and is expected to run through January 20, 2025. <br><br>The Domestic Revenue Mobilization for Development (DRM4D) Activity is designed to support improvements in revenue mobilization to fast-track Uganda’s journey to self-reliance and increase domestic spending on health, education, agriculture, and other public sector expenditure. The DRM4D Activity will build on previous initiatives in Local Government Revenue improvement by other development partners.<br><br>DRM4D, and other development partners came together  to support efforts leading to thecomprehensive digitization of revenue processes to enhance data integrity, revenue management, administration, and reporting.</p>
+
+                                <p>In most cities in the world, property tax represents the highest percentage of the sources of revenue and it is where most of them acquire their revenue for development.
+                                <br>In Uganda however, this hasn't been properly explored hence leading to low anticipated revenue collected. This is always due to:- 
+                                <ul>
+                                    <li>Expired rolls being used</li> 
+                                    <li>Most of them are actually  manual which makes them hard to administer</li>
+                                    <li>Miss out on new properties that were never captured during the valuation</li>
+                                    <li>Rolls are almost unusable because of the incomplete data</li>
+                                    <li>Missing details of the new owners as a result of a change in ownership</li>
+                                    <li>Properties in the newly extended/annexed areas of the cities had never been assessed for tax as required under the Local Government Rating Act </li>
+                                    <li>Property valuation rolls were not GIS-enabled, which implies increased costs of revaluations after every five years.</li>
+                                </ul> 
+                                 <img src="images/Satelite Imagery of Mbarara City.jpg" alt="Satelite Imagery of Mbarara City"><h6><i>Satelite Imagery of Mbarara City</i></h6>
+                               Knight Frank Uganda Limited (Knight Frank) in association with OpenStreetMap Uganda (OSM Uganda) carried out data collection in four new cities; Mbarara, Masaka, Lira and Gulu in order to provide a GIS enable property valuation system that will be used by the city officials to do valuation with ease and accuracy in order to increase the domestic revenue.
+                               <br><br>The tools used for data collection were highly automated and makes recording property information much easier and flexible, they can also be used to operate in remote places that have no internet connections. All the raw data was stored on the server and in case of any data losing situation, a backup will be available from this server.</p>
+                               <img src="images/Digitization of Properties.png" alt="Digitization of Properties"><h6><i>Digitization of Properties using satelite imagery.</i></h6>
+                               <h6>Objectives</h6>
+                               <p>The main objective of this project is to increase revenue from property tax by conducting computerized property valuation with GIS-enabled property valuation rolls. Knight Frank’s goal will be to ensure that the entire assignment is executed in accordance with the client’s requirements as stipulated in the terms of reference, in a timely and cost-effective manner. The specific objectives for the assignment included;-
+                               <ul>
+                                   <li>To identify, locate, collect, and capture data on all property as defined under the Local Government Rating Act in cities for purposes of property taxation.</li> 
+                                   <li>To assess rateable values on all property for determination of property tax.</li>
+                                   <li>To support cities to determine amounts due and payable by property owners before the display of valuation lists.</li>
+                                   <li>To produce GIS-enabled valuation lists covering all property in the city.</li>
+                                   <li>To collect, update and digitize business licensing data and update respective registers.</li>
+                                </ul>
+
+                                <img src="images/GIS enabled digital property register.png" alt="GIS enabled digital property register"><h6><i>Landing page of the GIS enabled digital property register.</i></h6>
+
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End details for portfolio project 17-->
+                    <!-- Start details for portfolio project 18-->
+                    <div id="slidingDiv18" class="toggleDiv row-fluid single-project">
+                        <div class="span6" id="evidence">
+                            
+                                <img src="images/tourism_mapping_uganda.jpg" alt="Uganda Tourism Dashboard">
+                                <br><br>
+                                <img src="images/Aruu_Falls_Campsite.jpg" alt="Aruu Falls Campsite">
+                                <br><br>
+                                <img src="images/Aruu_Falls_Uganda.jpg" alt="Aruu Falls">
+                                <br><br>
+                                <img src="images/Baker_Fort_Patiko.jpg" alt="Baker's Fort Patiko">
+                            
+                        </div>
+                        <div class="span6">
+                            <div class="project-description">
+                                <div class="project-title clearfix">
+                                    <h3>The National Mapping & Survey of Core Primary Teacher’s Colleges, Coordinating Centers and Tutors.</h3>
+                                    <span class="show_hide close">
+                                        <i class="icon-cancel"></i>
+                                    </span>
+                                </div>
+                                <div class="project-info">
+                                    <div>
+                                        <span>Client:</span><b><a href="https://www.linkedin.com/company/elevate-partners-for-education/about/" target="_blank"> Elevate: Partners for Education</a></b></div>
+                                    <div>
+                                        <span>Project Period:</span><b>January - March 2020</b></div>
+                                    <div>
+                                        <span>Project Location:</span><b>Uganda</b></div>
+                                    <div>
+                                        <span>Link:</span></div>
+                                </div>
+                                <p> OpenStreetMap Uganda in collaboration with Elevate, conducted the national mapping and survey of 23  Core Primary Teacher’s Colleges and 539 Coordinating Centers and Tutors across Uganda.OSM Uganda main objectives for this program included:-</p>
+                                <ul>
+                                    <li>Facilitate the national geotagging and surveying of CPTCs and Coordinating Centers through the support of Youth Mappers.</li>
+                                    <li>Generate the data collected on hard copy and digital maps for use by Elevate, MOES and other partner organizations.</li>
+                                    <li>Participate in dissemination and policy discussions with Ministry of Education and Sports (MOES) and other partners regarding the mapping process, policy implications, etc.</li>
+                                </ul>
+                                <p> The features that were mapped on this project included:-</p>
+                                <ul>
+                                     23 Core Primary Teachers Colleges
+                                    <li>CPTC Name</li>
+                                    <li>Geolocation – District, Subcounty, Parish</li> 
+                                    <li>Principal Name & Contact</li>
+                                    <li>Deputy Principal of Outreach Name & Contact</li>
+                                    <li>Names of Coordinating Centers under College catchment area</li>
+                                    <li>Known NGO partners working with the College, CCTs or Schools in the catchment area</li>
+                                </ul>
+                                <ul>
+                                     539 Coordinating Centers
+                                    <li>Coordinating Center Name</li>
+                                    <li>Geolocation – District, Subcounty, Parish</li> 
+                                    <li>Name of associated primary school (if applicable)</li>
+                                    <li>Coordinating Center Tutor Name</li>
+                                    <li>Gender</li>
+                                    <li>Contact</li>
+                                    <li>Years as CCT</li>
+                                    <li>Years at Coordinating Center</li>
+                                    <li>Has a smartphone?</li>
+                                    <li>List of private schools under the catchment area</li>
+                                    <li>Contact</li>
+                                    <li>Years as CCT</li>
+                                    <li>List of government-aided schools under the catchment area</li>
+                                    <li>Known NGO partners working with College, CCT, or Schools in the catchment area</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End details for portfolio project 18-->
+                    <!-- Start details for portfolio project 19-->
+                    <div id="slidingDiv19" class="toggleDiv row-fluid single-project">
+                        <div class="span6" id="evidence">
+                            
+                                <img src="images/Clean Energy Mapping Project Training of Enumerators on Mobile Data Collection Bidibidi.png" alt="Clean Energy Mapping Project Training of Enumerators on Mobile Data Collection Bidibidi"> <h6><i>Enumerators Training on Mobile Data Collection in Bidibidi Refugee Settlement Zone 3</i></h6>
+
+                                <img src="images/Data Collection Training with Refugees of Bidibidi Refugee Settlement Zone 3.png" alt="Data Collection Training with Refugees of Bidibidi Refugee Settlement Zone 3"> <h6><i>Refugee Enumerators Training on Mobile Data Collection in Bidibidi Refugee Settlement Zone 3</i></h6>
+
+                                <img src="images/Solar Powered Restaurant in Bidbidi Refugee Settlement.png" alt="Solar Powered Restaurant in Bidbidi Refugee Settlement"> <h6><i>Solar Powered Restaurant in Bidbidi Refugee Settlement</i></h6>
+
+
+                                
+                            
+                        </div>
+                        <div class="span6">
+                            <div class="project-description">
+                                <div class="project-title clearfix">
+                                    <h3>Mapping Energy Saving Solutions</h3>
+                                    <span class="show_hide close">
+                                        <i class="icon-cancel"></i>
+                                    </span>
+                                </div>
+                                <div class="project-info">
+                                    <div>
+                                        <span>Client:</span><b><a href="https://www.hotosm.org/projects/energy-saving-solutions-and-retailers-in-bidibidi-refugee-settlement/" target="_blank"> OpenStreetMap Team</a></b></div>
+                                    <div>
+                                        <span>Project Period:</span><b>February - March 2020</b></div>
+                                    <div>
+                                        <span>Location:</span><b>Bidibidi Refugee Settlement | Yumbe District</b></div>
+                                    <div>
+                                        <span>Link:</span><b><a href="https://static1.squarespace.com/static/5d7fba1a7dc0f278f09832df/t/5f31aeb605f42a6e80383c49/1597091513923/Humanitarian+Open+Street+Map+-+BIG.pdf" target="_blank"> Report</a>| <a href="https://www.hotosm.org/updates/mapping-energy-saving-solutions-in-one-of-the-largest-refugee-settlements-in-africa/" target="_blank">Blog</a> </div>
+                                </div>
+                                <p>With support from the Response Innovation Lab and Save the Children, HOT and MapUganda carried out a project across Bidibidi Refugee Settlement in northern Uganda to better understand the state of energy-saving solutions available to refugees in the settlement as well as relevant market trends and challenges associated with accessing and purchasing these solutions.<br><br>In collaboration with refugees and host community members in Bidibidi, HOT and MapUganda led extensive data collection activities, gathering information from energy-saving solution retailers about where they purchased their products from, what their available stock consisted of, the biggest challenges they faced in selling these products to the refugee and host populations and much more.<br><br>
+
+                                Upon completion of the data collection exercise, the information was analyzed and compiled into maps and graphs to support a better understanding of the accessibility and availability associated with purchasing energy-saving solutions in the settlement. Information products and raw data were shared with the AMPERE consortium - a group of implementing partners working to enhance access and adoption of energy-saving solutions across the settlement - to support more targeted efforts in enhancing clean energy product use, linking potential customers with the clean energy market and increasing awareness of such products amongst refugees and respective host community members.</p>
+
+                                <img src="images/Data Review with Mapping Supervisors and Refugee Data Enumerators.png" alt="Data Review with Mapping Supervisors and Refugee Data Enumerators"> <h6><i>Data Review with Mapping Supervisors and Refugee Data Enumerators</i></h6>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End details for portfolio project 19-->
+                    <!-- Start details for portfolio project 20-->
+                    <div id="slidingDiv8" class="toggleDiv row-fluid single-project">
+                       <div class="span6" id="evidence">
+                            
+                                <img src="images/tourism_mapping_uganda.jpg" alt="Uganda Tourism Dashboard">
+                                <br><br>
+                                <img src="images/Aruu_Falls_Campsite.jpg" alt="Aruu Falls Campsite">
+                                <br><br>
+                                <img src="images/Aruu_Falls_Uganda.jpg" alt="Aruu Falls">
+                                <br><br>
+                                <img src="images/Baker_Fort_Patiko.jpg" alt="Baker's Fort Patiko">
+                            
+                        </div>
+                        <div class="span6">
+                            <div class="project-description">
+                                <div class="project-title clearfix">
+                                    <h3>Mapping Uganda's New Cities</h3>
+                                    <span class="show_hide close">
+                                        <i class="icon-cancel"></i>
+                                    </span>
+                                </div>
+                                <div class="project-info">
+                                    <div>
+                                        <span>Client</span>OpenStreetMap Foundation</div>
+                                    <div>
+                                        <span>Project Period</span>2020</div>
+                                    <div>
+                                        <span>2020</span>Arua, Mbale, Gulu, Mbarara, Masaka, Fortportal, Lira, Jinja, Soroti, Entebbe Cities</div>
+                                    <div>
+                                        <span>Link</span>http://examplecomp.com</div>
+                                </div>
+                                <p>I learned that we can do anything, but we can't do everything... at least not at the same time. So think of your priorities not in terms of what activities you do, but when you do them. Timing is everything.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End details for portfolio project 20-->
+                    <!-- Start details for portfolio project 21-->
+                    <div id="slidingDiv8" class="toggleDiv row-fluid single-project">
+                        <div class="span6" id="evidence">
+                            
+                                <img src="images/tourism_mapping_uganda.jpg" alt="Uganda Tourism Dashboard">
+                                <br><br>
+                                <img src="images/Aruu_Falls_Campsite.jpg" alt="Aruu Falls Campsite">
+                                <br><br>
+                                <img src="images/Aruu_Falls_Uganda.jpg" alt="Aruu Falls">
+                                <br><br>
+                                <img src="images/Baker_Fort_Patiko.jpg" alt="Baker's Fort Patiko">
+                            
+                        </div>
+                        <div class="span6">
+                            <div class="project-description">
+                                <div class="project-title clearfix">
+                                    <h3>Mapping Uganda's New Cities</h3>
+                                    <span class="show_hide close">
+                                        <i class="icon-cancel"></i>
+                                    </span>
+                                </div>
+                                <div class="project-info">
+                                    <div>
+                                        <span>Client</span>OpenStreetMap Foundation</div>
+                                    <div>
+                                        <span>Project Period</span>2020</div>
+                                    <div>
+                                        <span>2020</span>Arua, Mbale, Gulu, Mbarara, Masaka, Fortportal, Lira, Jinja, Soroti, Entebbe Cities</div>
+                                    <div>
+                                        <span>Link</span>http://examplecomp.com</div>
+                                </div>
+                                <p>I learned that we can do anything, but we can't do everything... at least not at the same time. So think of your priorities not in terms of what activities you do, but when you do them. Timing is everything.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End details for portfolio project 21-->
+                    <!-- Start details for portfolio project 22-->
+                    <div id="slidingDiv22" class="toggleDiv row-fluid single-project">
+                        <div class="span6" id="evidence">
+                            
+                                <img src="images/a pilot teaching participants about the different parts of a DJI Phantom  4 Pro drone.png" alt="a pilot teaching participants about the different parts of a DJI Phantom  4 Pro drone"><h6><i>Asaph, OSM Uganda's drone pilot training on the different parts of a DJI Phantom  4 Pro drone.</i></h6>
+                                <img src="images/Introduction to drones.png" alt="Introduction to drones"><h6><i>Fred Mbuya a drone pilot training on introdution to drones.</i></h6>
+                                <img src="images/a pilot demonstrating to the participants the flight maneuvering.png" alt="a pilot demonstrating to the participants the flight maneuvering"><h6><i>Emmanuel Adiba, OSM Uganda's drone pilot demonstrating to participants flight maneuvering.</i></h6>
+                                <img src="images/a Pilot demonstrating how to unpack a drone from its casing and  assembling it.png" alt="a Pilot demonstrating how to unpack a drone from its casing and  assembling it"><h6><i>Adriko, OSM Uganda's drone Pilot demonstrating how to unpack a drone from its casing and  assembling.</i></h6>
+
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/6MCbkVqgIjo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                            
+                        </div>
+                        <div class="span6">
+                            <div class="project-description">
+                                <div class="project-title clearfix">
+                                    <h3>Drone Training and Imagery Analysis:- OPM/UNDP Training</h3>
+                                    <span class="show_hide close">
+                                        <i class="icon-cancel"></i>
+                                    </span>
+                                </div>
+                                <div class="project-info">
+                                    <div>
+                                        <span>Client:</span><b>HOT / UNDP</b></div>
+                                    <div>
+                                        <span>Project Period:</span><b>April 2019</b></div>
+                                    <div>
+                                        <span>Project Location:</span><b>Arua-Imvepi Refugee Settlement</b></div>
+                                    <div>
+                                        <span>Links:</span><b><a href="https://www.hotosm.org/updates/understanding-hazards-exposure-and-vulnerability-in-northwestern-uganda/" target="_blank"> Risk Atlas</a>|<a href="" target="_blank"> Blog</a></b></div>
+                                </div>
+                                <h3>Project Description</h3>
+
+                                <p>The general objective of the training was to train Office of the Prime Minister (OPM) officers how to fly, capture, process and  analyse the images to respond to disaster using drones.</p>
+
+                                <p>For efficiency OpenStreetMap Uganda (under Uganda flying labs) was exempted from flying at altitude above 400m  above the ground.The flights were conducted in accordance with FAA standards and all the flights were  carried out below 400 feet.</p>
+
+                                <img src="images/orthomosaic imvepi refugee settlement.png" alt="orthomosaic imvepi refugee settlement"><h6><i>Orthomosaic of Imvepi refugee settlement.</i></h6>
+
+                                The training covered both the theory and practicals.  The training comprised of six modules which covered the following topics;  
+                                <ul>
+                                    <li>Introduction to drone operations in Uganda.</li>
+                                    <li>Regulations and Code of Conduct.</li>
+                                    <li>Meteorology</li>
+                                    <li>Human factors and Aerodynamics</li>
+                                    <li>Drone rotary parts and their uses </li>
+                                    <li>Mission Planning using Pix4D</li>
+                                    <li>Drone flying for aerial photography.</li>
+                                </ul>
+
+                                <p>An Area of not more than 10 Sqkm was surveyed in a village identified by UNDP  officials. The core purpose was to train participants on how to capture images using  drones while carrying out automatic flights.The participants were introduced to drone mission planning using the <a href="https://www.pix4d.com/" target="_blank"> Pix4D</a>. The  drone Pre planning checklists, Meteorology and Aerodynamics were among the topics  that were discussed in the theory session. The participants then went for the field  drone flying session. Each participant planned for a mission, captured the images of the areas of their  missions, with their flight altitude between 70m to 100m above the ground. All the  missions were double grid missions and automatic flights so that each participant  could capture a regular area of around 250 m by 250 m. This was to ensure that the  most appropriate resolution was acquired from the drone survey.</p>
+
+                                 <img src="images/Participants in the field.png" alt="Participants in the field"><h6><i>Participants in the field.</i></h6>
+
+                                <p>The aerial images were captured at 80% standard overlap. The participants also  repeated the session of assembling a drone and disassembling before and after  executing the mission plan respectively. The images were then extracted by the pilots  and shared with the participants on the day for the image analysis.</p>
+
+                                <p>In conclusion there exists significant justifications for <a href="https://www.dronedeploy.com/" target="_blank"> drone deploy</a> in risk analysis and  humanitarian response in each country, although the specific reasons will vary by  country and project. From the training, the participants were able to identify that the general drone  regulations in the country are still lacking making the use of the technology be at stake.  Therefore, more attention must be given to the regulations of drones and must be  followed by any pilot. It was widely accepted in the training that there is a strong need  for more and better adaptive and diagnostic practice in flying drones for the  participants to deploy drones effectively for their humanitarian response. In summary, the training as a whole was a success in a way that all participant’s  expectations were met.</p>  
+
+                                <img src="images/Phantom 4 Pro Plus used in the OPM_UNDP Drone training.png" alt="Phantom 4 Pro Plus used in the OPM/UNDP Drone training"><h6><i>Phantom 4 Pro Plus used in the OPM/UNDP Drone training</i></h6>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End details for portfolio project 22-->
+                    <!-- Start details for portfolio project 23-->
+                    <div id="slidingDiv23" class="toggleDiv row-fluid single-project">
+                        <div class="span6" id="evidence">
+                            
+                                <img src="images/Buildings.png" alt="Uganda's buildings">
+                                <h6><i>Border building stats</i></h6>
+                                <img src="images/Josm_Mapping.png" alt="Josm Mapping">
+                                <h6><i>JOSM mapping of roads and buildings </i></h6>
+                                <img src="images/Aruu_Falls_Uganda.jpg" alt="Aruu Falls">
+                                <br><br>
+                                <img src="images/Baker_Fort_Patiko.jpg" alt="Baker's Fort Patiko">
+                            
+                        </div>
+                        <div class="span6">
+                            <div class="project-description">
+                                <div class="project-title clearfix">
+                                    <h3>Covid-19 Pandemic Response</h3>
+                                    <span class="show_hide close">
+                                        <i class="icon-cancel"></i>
+                                    </span>
+                                </div>
+                                <div class="project-info">
+                                    <div>
+                                        <span>Donor:</span><b> <a href="" target="_blank"> Humanitarian OpenStreetMap Team (HOT)</a></b></div>
+                                    <div>
+                                        <span>Project Period:</span><b>March 2021</b></div>
+                                    <div>
+                                        <span>Location:-</span><b>23 Border Districts</b></div>
+                                    <div>
+                                        <span>Links:</span><b><a href="https://www.hotosm.org/updates/how-we-responded-to-covid-19-pandemic-by-mapping-ugandan-border-entry-towns/" target=""> Blog</a> | </b></div>
+                                </div>
+                                <p>Timely provision of medical and non-medical supplies is critical for COVID-19 response, and the need to remember the undesirable demands to protect oneself from the disease has prompted the reinvention of risk communication with targeted messaging like the “Tonsemberera (Do not come close to me) campaign.” All over the world, the outbreak prompted the application of tools, such as digital and geospatial technology, for efficient responses, to enable the quick identification and isolation of infected individuals or families while also ensuring the efficient supply of daily needs such as food, especially among those that were gravely affected by the pandemic.</p>
+
+                                <p>OpenStreetMap is one such platform that enables building tools and obtaining demographics without needing complex techniques. With the identification of buildings, access roads, and amenities, responders gain easy access to information, and so the planning and delivery of support services become more efficient.</p> 
+
+                                <p>Unfortunately, the most affected areas in Uganda were the border districts that only existed as blank spots on OpenStreetMap. <b>MapUganda</b>, together with <b>Geo YouthMapppers</b>, came forward through the <b>HOT Microgrant</b> program to support the availability of data for the planning and actions of government and field responders, such as the Ugandan Red Cross. The parties embarked on mapping buildings, roads, and identifiable amenities for porous border entry points to help create detailed maps to support and retool the Ugandan Red Cross Society and Ministry of Health surveillance efforts against the spread of the pandemic.</p>
+
+                                <p>In spite of the lockdown of the airport in March and the strict monitoring and testing at official borders entry points, COVID-19 transmission still found its way into the country through the porous border points, carried by people entering from the neighboring countries of Kenya, Congo, and Tanzania. With support from a Rapid Response Microgrant, students and community members dedicated a piece of their time every day to contribute to the remote mapping of 27 border towns.</p>
+
+                                <h3>Data Collected</h3>
+
+                                <p>A series of trainings and work sessions using different tools, such as JOSM, ID Editor, Tasking Manager, Quantum GIS, Umap platform, were used to remotely prepare the data and information for the communities at the frontline of the awareness and risk communications against the pandemic.</p>
+                                <ul>
+                                    <li>More than 250,000 buildings were added to the map</li>
+                                    <li>Over 7000km of roads were collected.</li>
+                                    <li>More than 400km of waterways were also mapped in these all the border points.</li>
+                                    <li>27 Digital and paper maps were created.</li>
+                                </ul>
+                                <h3>Insights from the mapped border towns</h3>
+                                <p>Among all the 27 border towns, Kyotera and Busia had the highest number of buildings. The access roads are primarily distributed across Kyotera, Elegu, Busia, Mutukula, and Moyo border towns, with Kyotera having the highest number of access roads. This attributes to the dense population of the town and puts its population at risk of an outbreak if there is a community infection within the area.</p>
+                                <ul>
+                                    <p>For further insights, please see these resource:</p>
+                                    <li><a href="https://www.youtube.com/watch?v=Iz7pNor-zSU" target="_blank"> Meet Wamala, a student mapper fighting COVID-19 in Uganda.</a></li>
+                                    <li><a href="https://africageoportal.maps.arcgis.com/apps/dashboards/e1f317cd77bc413db4820d2c8879d267" target="_blank"> Border towns web-based dashboard</a></li>
+
+                                <p>We appreciate the <b>support and facilitation</b> that HOT has rendered to us, from funding to guidance, throughout the entire project, and we encourage other communities to apply for HOT Microgrants and make a difference through mapping.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End details for portfolio project 23-->
+                    <!-- Snapshot of the Projects-->
+                    <ul id="portfolio-grid" class="thumbnails row">
+                        <li class="span4 mix web">
+                            <div class="thumbnail">
+                                <img src="images/bat_mapping_bundibugyo.png" alt="Bat-Human Interface Mapping-STOP Spillover Bundibugyo district Uganda">
+                                <a href="#single-project" class="more show_hide" rel="#slidingDiv">
+                                    <i class="icon-plus"></i>
+                                </a>
+                                <h3>STOP SpillOver, Uganda</h3>
+                                <p>Mapping human-bat interfaces in Bundibugyo district.</p>
+                                <div class="mask"></div>
+                            </div>
+                        </li>
+                        <li class="span4 mix photo">
+                            <div class="thumbnail">
+                                <img src="images/Mosepyek_Benet.png" alt="Mosopisyek - Benet in Mount Elgon Uganda">
+                                <a href="#single-project" class="show_hide more" rel="#slidingDiv1">
+                                    <i class="icon-plus"></i>
+                                </a>
+                                <h3>The Mosopisyek (Benet)</h3>
+                                <p>Resolving land conflicts through creating ancestral maps.</p>
+                                <div class="mask"></div>
+                            </div>
+                        </li>
+                        <li class="span4 mix identity">
+                            <div class="thumbnail">
+                                <img src="images/osm_schools.png" alt="OpenStreetMap in Schools Uganda">
+                                <a href="#single-project" class="more show_hide" rel="#slidingDiv2">
+                                    <i class="icon-plus"></i>
+                                </a>
+                                <h3>OpenStreetMap in Schools</h3>
+                                <p>Fostering quality education through geospatial skills.</p>
+                                <div class="mask"></div>
+                            </div>
+                        </li>
+                        <li class="span4 mix web">
+                            <div class="thumbnail">
+                                <img src="images/Hoima Data Collection WB-Research.jpg" alt="Electricity Demand Estimation in Uganda Agriculture Sector">
+                                <a href="#single-project" class="show_hide more" rel="#slidingDiv3">
+                                    <i class="icon-plus"></i>
+                                </a>
+                                <h3>Electricity Demand Estimation</h3>
+                                <p>Challenges and Opportunities of Electrifying the Agriculture Sector</p>
+                                <div class="mask"></div>
+                            </div>
+                        </li>
+                        <li class="span4 mix photo">
+                            <div class="thumbnail">
+                                <img src="images/tourism_mapping_uganda.jpg" alt="Uganda Tourism Dashboard">
+                                <a href="#single-project" class="show_hide more" rel="#slidingDiv4">
+                                    <i class="icon-plus"></i>
+                                </a>
+                                <h3>Mapping Tourist Eco Systems</h3>
+                                <p>Uganda's tourism in Northern Uganda using OpenStreetMap.</p>
+                                <div class="mask"></div>
+                            </div>
+                        </li>
+                        <li class="span4 mix identity">
+                            <div class="thumbnail">
+                                <img src="images/flood_mapping_kampala.png" alt="Floods Mapping in Uganda Kampala">
+                                <a href="#single-project" class="show_hide more" rel="#slidingDiv5">
+                                    <i class="icon-plus"></i>
+                                </a>
+                                <h3>Flood resilience mapping</h3>
+                                <p>Technical support for the implementation of the GKIFP program.</p>
+                                <div class="mask"></div>
+                            </div>
+                        </li>
+                        <li class="span4 mix web">
+                            <div class="thumbnail">
+                                <img src="images/NYTIL_mapping.png" alt="NYTIL Industries Geospatial Mapping" />
+                                <a href="#single-project" class="show_hide more" rel="#slidingDiv6">
+                                    <i class="icon-plus"></i>
+                                </a>
+                                <h3>Manufacturers' Mapping</h3>
+                                <p>Local procurement profiling uisng OpenStreetMap</p>
+                                <div class="mask"></div>
+                            </div>
+                        </li>
+                        <li class="span4 mix photo">
+                            <div class="thumbnail">
+                                <img src="images/somalia waste management mapping.PNG" alt="somalia waste management mapping">
+                                <a href="#single-project" class="show_hide more" rel="#slidingDiv7">
+                                    <i class="icon-plus"></i>
+                                </a>
+                                <h3>Solid Waste Mapping Project</h3>
+                                <p>Remote mapping in support of OSM Somalia</p>
+                                <div class="mask"></div>
+                            </div>
+                        </li>
+                        <li class="span4 mix identity">
+                            <div class="thumbnail">
+                                <img src="images/Food Forest overview of NURI program.png" alt="Food Forest overview of NURI program">
+                                <a href="#single-project" class="show_hide more" rel="#slidingDiv8">
+                                    <i class="icon-plus"></i>
+                                </a>
+                                <h3>Geospatial NURI WebMap & Atlas</h3>
+                                <p>Northern Uganda Resilience Initiative Program Overview</p>
+                                <div class="mask"></div>
+                            </div>
+                        </li>
+                        <li class="span4 mix identity">
+                            <div class="thumbnail">
+                                <img src="images/knight_frank_ugandax.png" alt="Domestic Revenue Mobilization for Development">
+                                <a href="#single-project" class="show_hide more" rel="#slidingDiv17">
+                                    <i class="icon-plus"></i>
+                                </a>
+                                <h3>Domestic Revenue Mobilization for Development (DRM4D)</h3>
+                                <p>Uganda new cities applying OpenStreetMap in property revenue management.</p>
+                                <div class="mask"></div>
+                            </div>
+                        </li>
+                        <li class="span4 mix identity">
+                            <div class="thumbnail">
+                                <img src="images/Capacity Development Training.png" alt="Capacity Development Training">
+                                <a href="#single-project" class="show_hide more" rel="#slidingDiv10">
+                                    <i class="icon-plus"></i>
+                                </a>
+                                <h3>Trust Tool Kit for National Statistics</h3>
+                                <p>Measure of trust in national statistics research in collaboration with Makerere University.</p>
+                                <div class="mask"></div>
+                            </div>
+                        </li>
+                        <li class="span4 mix identity">
+                            <div class="thumbnail">
+                                <img src="images/Drone Imagery GEOGLAM Uganda.jpg" alt="Drone Imagery GEOGLAM Uganda">
+                                <a href="#single-project" class="show_hide more" rel="#slidingDiv11">
+                                    <i class="icon-plus"></i>
+                                </a>
+                                <h3>Crop Mapping for GEOGLAM Country Level Support</h3>
+                                <p>41 districts mapped as part of the Copernicus Global Land component “COPERNICUS4GEOGLAM".</p>
+                                <div class="mask"></div>
+                            </div>
+                        </li>
+                        <li class="span4 mix identity">
+                            <div class="thumbnail">
+                                <img src="images/photo_mapping_new_cities_uganda.png" alt="PhotoMapping Using Mapillary Uganda">
+                                <a href="#single-project" class="show_hide more" rel="#slidingDiv12">
+                                    <i class="icon-plus"></i>
+                                </a>
+                                <h3>PhotoMapping New Cities</h3>
+                                <p>Application of Mapillary (META) to improve OpenStreetMap data.</p>
+                                <div class="mask"></div>
+                            </div>
+                        </li>
+                        <li class="span4 mix identity">
+                            <div class="thumbnail">
+                                <img src="images/noble farms seed distribution.jpg" alt="noble farms seed distribution">
+                                <a href="#single-project" class="show_hide more" rel="#slidingDiv13">
+                                    <i class="icon-plus"></i>
+                                </a>
+                                <h3>Farmer's Seed distribution</h3>
+                                <p>Application of opensource tools in improving commercial agriculture</p>
+                                <div class="mask"></div>
+                            </div>
+                        </li>
+                        <li class="span4 mix identity">
+                            <div class="thumbnail">
+                                <img src="images/A light moment sharing map products from the training.png" alt="A light moment sharing map products from the training">
+                                <a href="#single-project" class="show_hide more" rel="#slidingDiv14">
+                                    <i class="icon-plus"></i>
+                                </a>
+                                <h3>Open Cities, OpenMapping Ggaba</h3>
+                                <p>GIS capacity growth of KCCA staff and mapping for flood resilience.</p>
+                                <div class="mask"></div>
+                            </div>
+                        </li>
+                        <li class="span4 mix identity">
+                            <div class="thumbnail">
+                                <img src="images/Map Products sharing with Kampala division offices.jpg" alt="Map Products sharing with Kampala division offices">
+                                <a href="#single-project" class="show_hide more" rel="#slidingDiv15">
+                                    <i class="icon-plus"></i>
+                                </a>
+                                <h3>Clean Streets Kampala</h3>
+                                <p> Smart Cities adoptation in Uganda using OpenStreetMap.</p>
+                                <div class="mask"></div>
+                            </div>
+                        </li>
+                        <li class="span4 mix identity">
+                            <div class="thumbnail">
+                                <img src="images/Map Making in QGIS.png" alt="Map Making in QGIS">
+                                <a href="#single-project" class="show_hide more" rel="#slidingDiv16">
+                                    <i class="icon-plus"></i>
+                                </a>
+                                <h3>Disaster Capacity Building</h3>
+                                <p>OpenStreetMap application to support smart cities adoptation in Uganda.</p>
+                                <div class="mask"></div>
+                            </div>
+                        </li>
+                        <li class="span4 mix identity">
+                            <div class="thumbnail">
+                                <img src="images/National Teachers Training.JPG" alt="National Teachers Training">
+                                <a href="#single-project" class="show_hide more" rel="#slidingDiv18">
+                                    <i class="icon-plus"></i>
+                                </a>
+                                <h3>The National Mapping & Survey</h3>
+                                <p>Geospatial Mapping of Core Primary Teacher’s Colleges, Coordinating Centers and Tutors in Uganda.</p>
+                                <div class="mask"></div>
+                            </div>
+                        </li>
+                        <li class="span4 mix identity">
+                            <div class="thumbnail">
+                                <img src="images/Solar Powered Security Light at a Water Point in Bidibid Zone 3 Refugee Settlement.jpg" alt="Solar Powered Security Light at a Water Point in Bidibid Zone 3 Refugee Settlement">
+                                <a href="#single-project" class="show_hide more" rel="#slidingDiv19">
+                                    <i class="icon-plus"></i>
+                                </a>
+                                <h3>Mapping Energy Saving Solutions</h3>
+                                <p>Open mapping application techniques to support smart cities adoptation in Uganda.</p>
+                                <div class="mask"></div>
+                            </div>
+                        </li>
+                        <li class="span4 mix identity">
+                            <div class="thumbnail">
+                                <img src="images/a drone pilot inspecting a participant as she installs the propellers of the  drone.png" alt="a drone pilot inspecting a participant as she installs the propellers of the  drone">
+                                <a href="#single-project" class="show_hide more" rel="#slidingDiv22">
+                                    <i class="icon-plus"></i>
+                                </a>
+                                <h3>Drone Training & Imagery Processing</h3>
+                                <p>OPM/UNDP Training at Imvempi Refugee Camp</p>
+                                <div class="mask"></div>
+                            </div>
+                        </li>
+                        <li class="span4 mix identity">
+                            <div class="thumbnail">
+                                <img src="images/covid-19 response mapuganda.png" alt="covid-19 response mapuganda">
+                                <a href="#single-project" class="show_hide more" rel="#slidingDiv23">
+                                    <i class="icon-plus"></i>
+                                </a>
+                                <h3>Covid-19 Pandemic Response</h3>
+                                <p>Mapping Ugandan Border Entry Towns</p>
+                                <div class="mask"></div>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio section end -->
+        <!-- About us section start -->
+        <div class="section primary-section" id="about">
+            <div class="triangle"></div>
+            <div class="container">
+                <div class="title">
+                    <h1>The Lead Team</h1>
+                    <p>We leverage the experience of the youth with over 40 years combination in different sectors and backgrounds which contribute to our vision and mission as we solve our communities challenges using geospatial opensource technologies.</p>
+                </div>
+                <div class="row-fluid team">
+                    <div class="span4" id="first-person">
+                        <div class="thumbnail">
+                            <img src="images/Team/Allan Mbabani.png" alt="Allan Mbabani">
+                            <h3>Allan Mbabani</h3>
+                            <ul class="social">
+                                <li>
+                                    <a href="https://twitter.com/AMbabani" target="_blank">
+                                        <span class="icon-twitter-circled"></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/in/allanmbabani/" target="_blank">
+                                        <span class="icon-linkedin-circled"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="mask">
+                                <h2>Executive Director</h2>
+                                <p>Allan Mbabani has over 7 years of experience working in the NGO space and geospatial technologies for community development.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="span4" id="second-person">
+                        <div class="thumbnail">
+                            <img src="images/Team/Ronald Tumusiime.png" alt="Ronald Tumusiime">
+                            <h3>Ronald Tumusiime</h3>
+                            <ul class="social">
+                                <li>
+                                    <a href="https://twitter.com/tmsmronald" target="_blank">
+                                        <span class="icon-twitter-circled"></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/in/ronaldtumusiime/" target="_blank">
+                                        <span class="icon-linkedin-circled"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="mask">
+                                <h2>Head of Operations, Programs and Finance</h2>
+                                <p>Ronald has over 10 years working in the NGO and financial spaces. Deploying strategic approaches to community development.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="span4" id="third-person">
+                        <div class="thumbnail">
+                            <img src="images/Team/Arthur Mukunya Andersen.jpg" alt="Arthur Mukunya Andersen">
+                            <h3>Mukunya Arthur</h3>
+                            <ul class="social">
+                                <li>
+                                    <a href="https://twitter.com/andy_kanshe" target="_blank">
+                                        <span class="icon-twitter-circled"></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/in/arthur-mukunya-8b591a257/" target="_blank">
+                                        <span class="icon-linkedin-circled"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="mask">
+                                <h2>Head of Drone Technology</h2>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br><br>
+                <div class="row-fluid team">
+                    <div class="span4" id="second-person">
+                        <div class="thumbnail">
+                            <img src="images/Team/Jemimah Precious Mukisa.jpg" alt="Jemimah Precious Mukisa">
+                            <h3>Jemimah Precious Mukisa</h3>
+                            <ul class="social">
+                                <li>
+                                    <a href="https://twitter.com/Jemimah_Mukisa" target="_blank">
+                                        <span class="icon-twitter-circled"></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/in/jemimah-mukisa-44b102196/" target="_blank">
+                                        <span class="icon-linkedin-circled"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="mask">
+                                <h2>Head of Community Development and Engagement</h2>
+                                <p>Over 7,000 community members to the OpenStreetMap community in a space of 2 years.Jemimah has also a background in quantity surveying from Makerere University.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="about-text centered">
+                    <a href="osmteam.html" class="button button-sp">More of the Team</a>
+                    <h3>About Us</h3>
+                    <p>OpenStreetMap Uganda (MapUganda) is a registered NGO working across Uganda, promoting community mapping, GIS awareness, actively contributing open datasets, and building a network of enthusiastic community mappers in Uganda. MapUganda contributes its mapping to the OpenStreetMap platform. MapUganda has been operating since 2012 and has worked with international organizations that include the World Bank and Humanitarian OpenStreetMap Team (HOT) to execute data collection, capacity building, and information systems strengthening in Uganda.</p>
+                    <br>
+
+                </div>
+                <h3>Services</h3>
+                <div class="row-fluid">
+                    <div class="span6">
+                        <ul class="skills">
+                            <li>
+                                <span class="bar" data-width="80%"></span>
+                                <h3>Disaster Response</h3>
+                            </li>
+                            <li>
+                                <span class="bar" data-width="95%"></span>
+                                <h3>Geospatial Training</h3>
+                            </li>
+                            <li>
+                                <span class="bar" data-width="99%"></span>
+                                <h3>Digital Data Collection (Geospatial Research) </h3>
+                            </li>
+                            <li>
+                                <span class="bar" data-width="97%"></span>
+                                <h3>Geospatial Dataset Generation</h3>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="span6">
+                        <div class="highlighted-box center">
+                            <h1>Partner WithUs</h1>
+                            <p>Are looking at employing sustainable methods to provide impact in your work? <br> We are here to support you all the way to achieving success with our experienced and determined team ranging from geospatial specilists, engineering, socialist, among other specialities. </p>
+                            <button class="button button-sp">Let's Chat About it</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About us section end -->
+        <!-- Client section start -->
+        <!-- Client section start -->
+        <div id="clients">
+            <div class="section primary-section">
+                <div class="triangle"></div>
+                <div class="container">
+                    <div class="title">
+                        <h1>What our Partners Say?</h1>
+                        <p></p>
+                    </div>
+                    <div class="row">
+                        <div class="span4">
+                            <div class="testimonial">
+                                <p>"Had a great meeting with OSM Uganda in Kampala, discussing challenges and gaps in mapping I experienced during our Médecins Sans Frontières (MSF) health assessment in Karamoja. I managed to get them hooked on using Mapswipe, that will help them speed up their mapping in future projects and also make community participation more accessible 🙂"</p>
+                                <div class="whopic">
+                                    <div class="arrow"></div>
+                                    <img src="images/Andries_Heyns.png" class="centered" alt="Andries Heyns">
+                                    <strong>Andries Heyns
+                                        <small>Geospatial Consultant - Médecins Sans Frontières (MSF) UK and Ireland</small>
+                                    </strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="span4">
+                            <div class="testimonial">
+                                <p>"We have seen another great mapathon happening the past weekend. I just want to really thank you for that!! It is now ready for our MSF teams to use for any of their interventions. For all of our MSF activities in the region we will now have a better view where communities are exactly living."</p>
+                                <div class="whopic">
+                                    <div class="arrow"></div>
+                                    <img src="images/Jorieke_Vyncke.jpg" class="centered" alt="Jorieke Vyncke">
+                                    <strong>Jorieke Vyncke
+                                        <small>GIS advisor & Missing Maps Project Coordinator - Médecins Sans Frontières (MSF) UK and Ireland</small>
+                                    </strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="span4">
+                            <div class="testimonial">
+                                <p>"I want to take this opportunity to thank  everyone here contributing anything on the mapping exercise. I work with Ministry of Health but all our coordinates that are accurate are obtained from OpenStreetMap. This is only possible because of your great contribution. <b>I salute you all🙂</b>."</p>
+                                <div class="whopic">
+                                    <div class="arrow"></div>
+                                    <img src="images/Atuhaire_Immaculate_MOH.png" class="centered" alt="Atuhaire Immaculate">
+                                    <strong>Dr. Atuhaire Immaculate
+                                        <small>Epimideologist - Ministry of Health, Uganda</small>
+                                    </strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="testimonial-text">
+                        "Making our communities visible to the global village starts with me mapping my village. Let's make geospatially informed decisions for community developments."
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="section third-section">
+            <div class="container centered">
+                <div class="sub-section">
+                    <div class="title clearfix">
+                        <div class="pull-left">
+                            <h3>Our Partners</h3>
+                        </div>
+                        <ul class="client-nav pull-right">
+                            <li id="client-prev"></li>
+                            <li id="client-next"></li>
+                        </ul>
+                    </div>
+                    <ul class="row client-slider" id="clint-slider">
+                        <li>
+                            <a href="">
+                                <img src="images/clients/PostMan App Limited.jpg" alt="PostMan App">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="images/clients/humanitarian-openstreetmap-team-HOT.png" alt="Humanitarian OpenStreetMap Team (HOT)">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="images/clients/open-mapping-hub-eastern-southern-africa.png" alt="Open Mapping Hub Eastern and Southern Africa">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="images/clients/knight-frank.png" alt="Kinght Frank">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="images/clients/danish-refugee-council-DRC.png" alt="Danish Refugee Council (DRC)">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="images/clients/mercy-corps.png" alt="Mercy Corps">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="images/clients/Coat-of-arms-of-Uganda.png" alt="Ministry of Tourism, Wildlife and Antiquities">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="images/clients/the-world-bank.png" alt="The World Bank">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="images/clients/USAID.png" alt="USAID - For the People of America">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="images/clients/minority-rights-group-international.png" alt="Minority Rights Group International">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="images/clients/ministry-agriculture-animal-industry-fisheries-maaif.png" alt="Ministry of Agriculture Animal Industry and Fisheries">
+                            </a>
+                        </li>
+                         <li>
+                            <a href="">
+                                <img src="images/clients/field-ready.png" alt="Field Ready">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="images/clients/unhcr.png" alt="UNHCR">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="images/clients/response-innovation-lab.png" alt="Response Innovation Lab">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="images/clients/save-the-children.png" alt="Save the Children">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="images/clients/internet-of-production-alliance.png" alt="Internet of Production Alliance (IOPA)">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="images/clients/youth-mappers.png" alt="Youth Mappers">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="images/clients/deltares.png" alt="Stiching Deltares">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="images/clients/giz.png" alt="Deutsche Gesellschaft für Internationale Zusammenarbeit">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="images/clients/mapgive.png" alt="MapGive">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="images/clients/kabale-university.png" alt="Kabale University">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="images/clients/muni-university.png" alt="Muni University">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="images/clients/makerere-university.png" alt="Makerere University">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="images/clients/busitema-university.png" alt="Busitema University">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Price section start>
+        <Price section end -->
+        <!-- Newsletter section start -->
+        <div class="section third-section">
+            <div class="container newsletter">
+                <div class="sub-section">
+                    <div class="title clearfix">
+                        <div class="pull-left">
+                            <h3>Newsletter</h3>
+                        </div>
+                    </div>
+                </div>
+                <div id="success-subscribe" class="alert alert-success invisible">
+                    <strong>Well done!</strong>You successfully subscribed to our newsletter.</div>
+                <div class="row-fluid">
+                    <div class="span5">
+                        <p>Keep up-to-date with geospatial news, projects and learn more on our current programs as we impact our communities through geospatial mapping.</p>
+                    </div>
+                    <div class="span7">
+                        <form class="inline-form">
+                            <input type="email" name="email" id="nlmail" class="span8" placeholder="Enter your email" required />
+                            <button id="subscribe" class="button button-sp">Subscribe</button>
+                        </form>
+                        <div id="err-subscribe" class="error centered">Please provide valid email address.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Newsletter section end -->
+        <!-- Contact section start-->
+        <div id="contact" class="contact">
+            <div class="section secondary-section">
+                <div class="container">
+                    <div class="title">
+                        <h1>Contact Us</h1>
+                        <p>Let's have a discussion over coffee at our offices or schedule an online session.</p>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="span9 center contact-info">
+                        <p><a href="https://www.google.com/maps/place/OpenStreetMap+Uganda+(MapUganda)/@0.3579502,32.6234005,20z/data=!4m6!3m5!1s0x177dbb644afb9dd9:0xc6a9b0a1f723d062!8m2!3d0.3580016!4d32.6236516!16s%2Fg%2F11styqjw78?entry=ttu" target="_blank"> Plot 351, Kyadondo, Mengo, Kiwatule</a></p>
+                        <p class="info-mail">info@mapuganda.org</p>
+                        <p>+256 777 394 189 | +256 778 376 773</p>
+                        <p> <a href="" target="_blank"> Privacy Policy</a> | <a href="" target="_blank"> Terms of Use</a>| <a href="" target="_blank">Legal</a></p>
+                        <div class="title">
+                            <h3>We Are Social</h3>
+                        </div>
+                    </div>
+                    <div class="row-fluid centered">
+                        <ul class="social">
+                            <li>
+                                <a href="https://www.facebook.com/OpenStreetMapUganda/">
+                                    <span class="icon-facebook-circled"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/osmuganda?s=09">
+                                    <span class="icon-twitter-circled"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/company/openstreetmapuganda-mapuganda/">
+                                    <span class="icon-linkedin-circled"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://instagram.com/openstreetmap_uganda?igshid=YmMyMTA2M2Y=">
+                                    <span class="icon-dribbble-circled"></span>
+                                </a>
+                            </li>
+                        
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact section edn -->
+        <!-- Footer section start -->
+        <div class="footer">
+            <p>&copy;OpenStreetMap Uganda<h6><i>OpenStreetMap Uganda is a non-profit organization and a national community that is part of a global community. <br>Learn more about <a href="https://www.openstreetmap.org/about">OpenStreetMap</a></i></h6></p>
+        </div>
+        <!-- Footer section end -->
+        <!-- ScrollUp button start -->
+        <div class="scrollup">
+            <a href="#">
+                <i class="icon-up-open"></i>
+            </a>
+        </div>
+        <!-- ScrollUp button end -->
+        <!-- Include javascript -->
+        <script src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/jquery.mixitup.js"></script>
+        <script type="text/javascript" src="js/bootstrap.js"></script>
+        <script type="text/javascript" src="js/modernizr.custom.js"></script>
+        <script type="text/javascript" src="js/jquery.bxslider.js"></script>
+        <script type="text/javascript" src="js/jquery.cslider.js"></script>
+        <script type="text/javascript" src="js/jquery.placeholder.js"></script>
+        <script type="text/javascript" src="js/jquery.inview.js"></script>
+        <script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+        <!-- Load google maps api and call initializeMap function defined in app.js -->
+        <script async="" defer="" type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false&callback=initializeMap"></script>
+        <!-- css3-mediaqueries.js for IE8 or older -->
+        <!--[if lt IE 9]>
+            <script src="js/respond.min.js"></script>
+        <![endif]-->
+        <script type="text/javascript" src="js/app.js"></script>
+    </body>
+</html>
